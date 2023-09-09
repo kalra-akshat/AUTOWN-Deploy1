@@ -1,0 +1,73 @@
+.Contactus .title {
+    background: #191919;
+    color: white;
+    text-align: center;
+    font-size: 200%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-top: 3%;
+}
+
+
+.Contactus form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 3%;
+    padding: 2%;
+    background-color: #191919;
+    
+    border-radius: 20px;
+}
+
+.Contactus form:hover{
+    border: 2px solid #08bd8f;
+}
+.Contactus form input{
+    margin-bottom: 4%;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+}
+
+.Contactus form .inparea1 {
+    height: 40px;
+    
+}
+
+.Contactus{
+    padding-bottom: 5%;
+}
+.Contactus label {
+    color: whitesmoke;
+    padding-bottom: 1%;
+}
+.Contactus form .inparea2 {
+    /* height: 140px; */
+    padding-bottom: 100px;
+    padding-top: 10px;
+    
+}
+.Contactus form .subarea {
+    height: 30px;
+    width:  40% ;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    margin-top: 8%;
+
+}
+.Contactus form .subarea:hover {
+    background-color: cornflowerblue;
+    transition: 0.5s;
+}
+
+.Contactus .contact{
+    display: flex; 
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.Contactus .contact .sideimg{
+    width: auto;  
+    height: 60%;
+}

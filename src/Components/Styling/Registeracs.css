@@ -1,0 +1,98 @@
+.Regacs {
+    width: 80%;
+    margin-left: 10%;
+    border: 4px solid #08bd8f ;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.Regacs .autownlogo {
+    width: 65%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 25px;
+}
+
+.mainbg{
+    background-color: black;  
+    padding: 1%;
+}
+.Regacs a{
+    width: 20%;
+}
+.Regacs .head{
+    padding-top: 2.5%;
+    padding-left: 23%;
+}
+.Regacs .heading{
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+    padding-top: 2%;
+}
+
+.Regacs .title {
+    background: darkblue;
+    color: white;
+    font-size: 200%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 30px;
+    display: flex;
+    border: 2px solid #08bd8f;
+}
+
+.Regacs .regform {
+    margin-left: 5%;
+}
+
+
+.Regacs .form {
+    display: flex;
+    width: 80%;
+    /* margin-left: 35%; */
+    margin-top: 5%;
+}
+.Regacs .subform{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.Regacs img{
+    width: 80%;
+    margin-left: 40%;
+}
+.Regacs .form .inparea1{
+    margin-bottom: 4%;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+    height: 40px;
+}
+
+.Regacs label {
+    color: black;
+}
+
+.Regacs .project {
+    width: 100%;
+}
+
+.Regacs .project .projheading {
+    margin-bottom: 2%;
+    /* margin-left: 35%; */
+    text-decoration: underline;
+    color: black;
+
+}
+.Regacs .subarea:hover {
+    background-color: cornflowerblue;
+    transition: 0.5s;
+}
+.Regacs .subarea {
+    margin-bottom: 3%;
+    border-radius: 20px;
+    font-size: larger;
+}

@@ -1,0 +1,143 @@
+
+
+*{
+    /* padding: 0;
+    margin: 0; */
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    font: inherit;
+}
+
+
+.mainapp .mainlayout {
+    /* display: flex; */
+    height: 100vh;
+    width: 100%;
+    background-image: url('../Images/backgroundmain.jpg');
+    background-size: cover;
+    background-position: right;
+}
+
+.mainapp .bits_logo{
+    /* position: absolute; */
+    height: 100%;
+    margin-left: 3%;
+}
+.mainapp .navStyle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 55%;
+}
+
+.mainapp nav{
+    width: 100%;
+    height: 10%;
+    padding-top: 1%;
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+}
+
+
+
+.mainapp nav ul li a{
+    background-color: transparent;
+    color: white;
+    font-size: 22px;
+    /* font-weight: bold; */
+    border-radius: 45px;
+    align-items: center;
+    
+}
+
+.mainapp nav ul{
+    list-style: none;
+}
+
+.mainapp nav ul li a:hover{
+    color: #08bd8f;
+    transition: .4s;
+}
+
+
+.mainapp .content{
+    position: absolute;
+    top: 45%;
+    left: 3%;
+    transform: translateY(-50%);
+    color: antiquewhite;
+}
+
+.mainapp .content h1{
+    color: white;
+    font-size: 65px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+        
+}
+.mainapp .content .head2{
+    margin-top: 5%;
+    color: white;
+}
+.mainapp .content h2{
+    margin-top: 20%;
+    margin-bottom: 0%;
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 30px;
+   
+}
+.mainapp .content h3{
+    color: white;
+    font-size: 20px;
+}
+    
+.mainapp .dropdown-button:hover {
+    color: #fff;
+    background-color: #08bd8f;
+    transform: scale(1.1);
+  
+  }
+
+  .dropdown-button {
+    background-color: #08bd8f;
+    font-size: 22px;
+    color:  white;
+    text-decoration: none;
+    padding: 10% 15% 10% 15%;
+    border-radius: 20px ;
+    transition: transform .4s  ;
+    cursor: pointer;
+
+  }
+  
+  /* Dropdown content container */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    border: 2px solid #08bd8f;
+    color: #08bd8f;
+    min-width: 160px;
+    right: 1%;
+    margin-top: 0.5%;
+    border-radius: 15px;
+    z-index: 1;
+  }
+
+  /* Dropdown content items */
+  .dropdown-content .dropdown-content-item {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: whitesmoke;
+  }
+  
+  /* Show the dropdown content when the button is clicked */
+  .dropdown-container .dropdown-content {
+    display: block;
+  }
+  
