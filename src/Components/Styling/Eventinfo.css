@@ -61,6 +61,7 @@
     height: 100%;
     backface-visibility: hidden;
     position: absolute;
+    -webkit-backface-visibility: hidden;
    
 }
 .box .card .back{
@@ -72,6 +73,7 @@
     backface-visibility: hidden;
     position: absolute;
     top:  5%;
+    -webkit-backface-visibility: hidden;
     
     color: white;
 
