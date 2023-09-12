@@ -11,8 +11,9 @@
 
 .mainapp .mainlayout {
     /* display: flex; */
-    height: 100vh;
-    width: 100%;
+    height: 100vh; 
+    
+    width: 100vw;
     background-image: url('../Images/backgroundmain.jpg');
     background-size: cover;
     background-position: right;
@@ -27,7 +28,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 55%;
+    width: 35%;
 }
 
 .mainapp nav{
@@ -122,7 +123,7 @@
     border: 2px solid #08bd8f;
     color: #08bd8f;
     min-width: 160px;
-    right: 1%;
+    /* right: 1%; */
     margin-top: 0.5%;
     border-radius: 15px;
     z-index: 1;
@@ -139,6 +140,10 @@
   .dropdown-container .dropdown-content {
     display: block;
   }
+
+  .dropdown-container{
+    margin-left: 0%;
+  }
   
 
 
@@ -146,17 +151,17 @@
 
 
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 500px) {
     .mainapp .navStyle {
-
+        width: 60%;
         flex-direction: column;
         margin-top: 15%;
-        margin-left: 30%;
+        padding-left: 0%;
     }
     .mainapp .mainlayout {
         /* display: flex; */
-        height: 100vh;
-        width: auto;
+        height: 100dvh;
+        width: 100dvw;
         background-image: url('../Images/backgroundmain.jpg');
         background-size: cover;
         background-position: 5% 80%;
@@ -173,8 +178,11 @@
     .mainapp .content {
         left: -5%;
         top: 40%;
-        scale: 0.8;
+        scale: 0.6;
         width: 80%;
+    }
+    .dropdown-button{
+        scale: 0.8;
     }
 }
 

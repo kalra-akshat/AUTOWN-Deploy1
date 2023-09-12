@@ -10,9 +10,9 @@ function MainPage() {
     return (
         <div className="mainpage">
             <Navbar />
-            <Overview />
-            <Eventinfo />
-            <ContactUs />
+            {/* <Overview /> */}
+            {/* <Eventinfo /> */}
+            {/* <ContactUs /> */}
             {/* <Footer/> */}
         </div>
     );

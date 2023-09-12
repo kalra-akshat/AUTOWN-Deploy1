@@ -39,7 +39,6 @@ function Navbar() {
                             </div>
                         )}
                     </div></li>
-                    {/* <span ><li><a href="/regadas" className="btn">Register</a></li></span> */}
                 </ul>
             </nav>
             <div className="mainlayout" >

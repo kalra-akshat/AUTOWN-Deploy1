@@ -44,10 +44,11 @@
 
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
     .overview{
-        scale: 0.8;
         height: auto;
+        width: 80%;
+        scale: 0.8;
     }
 
     .overview h2 {
@@ -55,9 +56,8 @@
         padding-top: 5%;
     }
 
-    .overview-text p {
-        width: 90%;
-        margin: 5% auto;
+    .overview-text p{
+        width: 100%;
         font-size: 18px;
 
     }
