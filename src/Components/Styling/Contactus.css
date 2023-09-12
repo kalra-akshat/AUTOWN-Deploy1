@@ -72,7 +72,7 @@
     height: 60%;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 480px){
     .Contactus .contact{
         scale: 0.8;
         justify-content: center;
