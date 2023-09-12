@@ -75,5 +75,13 @@
 @media screen and (max-width: 768px){
     .Contactus .contact{
         scale: 0.8;
+        justify-content: center;
+    }
+    .Contactus .contact img{
+        display: none;
+
+    }
+    .Contactus .contact form{
+        width: 90%;
     }
 }

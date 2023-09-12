@@ -14,7 +14,7 @@ import Registercs from './Components/Registercs';
 import Registerev from './Components/Registerev';
 function App() {
   return (
-    <>
+    <div className='app'>
       <Router>
         <Routes>
           <Route exact path="/" element={<MainPage/>} />
@@ -28,7 +28,7 @@ function App() {
           <Route exact path="/regcs" element={<Registercs/>} />
         </Routes>
       </Router>
-    </>
+    </div>
   );
 }
 

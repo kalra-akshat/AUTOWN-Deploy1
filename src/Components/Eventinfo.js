@@ -28,9 +28,11 @@ function Eventinfo() {
                         </div>
                         <div className='back'>
                         <p style={{ width: "90%"}}><span style={{ color: "#08bd8f", marginLeft: "15%"}}>Automotive Control Systems & Diagnostics</span></p>
-                            <p><span style={{ color: "#08bd8f" }}><BsPersonCircle/></span>  Mr. Vennish & Mr. Sanjai</p>
-                            <p><span style={{ color: "#08bd8f" }}><FaEnvelope/><br></br></span><a href='mailto:vennishmuthu@wilp.bits-pilani.ac.in'>vennishmuthu@wilp.bits-pilani.ac.in</a><br></br><a href='mailto:sanjai.k@pilani.bits-pilani.ac.in'>sanjai.k@pilani.bits-pilani.ac.in </a></p>
-                            <p><span style={{ color: "#08bd8f" }}><FaPhoneVolume/> </span> 8056320310 || 8657592434</p>
+                            <p className='hide'><span style={{ color: "#08bd8f" }}><BsPersonCircle/></span>  Mr. Vennish & Mr. Sanjai</p>
+                            <p><span style={{ color: "#08bd8f" }}>
+                                <a style={{ color: "#08bd8f" }} href='mailto:vennishmuthu@wilp.bits-pilani.ac.in' ><FaEnvelope/>
+                                    </a><br></br></span><a className='hide' href='mailto:vennishmuthu@wilp.bits-pilani.ac.in'>vennishmuthu@wilp.bits-pilani.ac.in</a><br></br><a href='mailto:sanjai.k@pilani.bits-pilani.ac.in'>sanjai.k@pilani.bits-pilani.ac.in </a></p>
+                            <p className='hide'><span style={{ color: "#08bd8f" }}><FaPhoneVolume/> </span> 8056320310 || 8657592434</p>
                             <button onClick={event =>  window.location.href='/exploreacs'}>Explore Projects</button>
                         </div>
                     </div>
@@ -44,9 +46,10 @@ function Eventinfo() {
                         </div>
                         <div className='back'>
                         <p><span style={{ color: "#08bd8f"}}>Advanced Driver Assistance System</span></p>
-                            <p><span style={{ color: "#08bd8f" }}><BsPersonCircle/></span>  Mr. Parjanya</p>
-                            <p><span style={{ color: "#08bd8f" }}><FaEnvelope/><br></br></span><a href='mailto:parjanya.yaragani@pilani.bits-pilani.ac.in'>parjanya.yaragani@pilani.bits-pilani.ac.in</a></p>
-                            <p><span style={{ color: "#08bd8f" }}><FaPhoneVolume/></span> 6354835188</p>
+                            <p className='hide'><span style={{ color: "#08bd8f" }}><BsPersonCircle/></span>  Mr. Parjanya</p>
+                            <p><span style={{ color: "#08bd8f" }}>
+                            <a style={{ color: "#08bd8f"}} href='mailto:parjanya.yaragani@pilani.bits-pilani.ac.in' ><FaEnvelope/></a><br></br></span><a className='hide' href='mailto:parjanya.yaragani@pilani.bits-pilani.ac.in'>parjanya.yaragani@pilani.bits-pilani.ac.in</a></p>
+                            <p className='hide'><span style={{ color: "#08bd8f" }}><FaPhoneVolume/></span> 6354835188</p>
                             <button onClick={event =>  window.location.href='/exploreadas'}>Explore Projects</button>
                         </div>
                     </div>
@@ -60,9 +63,11 @@ function Eventinfo() {
                         </div>
                         <div className='back'>
                             <p><span style={{ color: "#08bd8f"}}>Cyber Security</span></p>
-                            <p><span style={{ color: "#08bd8f" }}><BsPersonCircle/></span> Ms. Indumathi Madhu</p>
-                            <p><span style={{ color: "#08bd8f" }}><FaEnvelope/><br></br></span> <a href='mailto:indumathi.m@pilani.bits-pilani.ac.in'>indumathi.m@pilani.bits-pilani.ac.in</a></p>
-                            <p><span style={{ color: "#08bd8f" }}><FaPhoneVolume/></span> 7904316109</p>
+                            <p className='hide'><span style={{ color: "#08bd8f" }}><BsPersonCircle/></span> Ms. Indumathi Madhu</p>
+                            <p><span style={{ color: "#08bd8f" }}>
+                                <a style={{ color: "#08bd8f" }} href='mailto:indumathi.m@pilani.bits-pilani.ac.in' ><FaEnvelope/></a>
+                                <br></br></span> <a className='hide' href='mailto:indumathi.m@pilani.bits-pilani.ac.in'>indumathi.m@pilani.bits-pilani.ac.in</a></p>
+                            <p className='hide'><span style={{ color: "#08bd8f" }}><FaPhoneVolume/></span> 7904316109</p>
                             <button onClick={event =>  window.location.href='/explorecybersec'}>Explore Projects</button>
                         </div>
                     </div>
@@ -76,9 +81,9 @@ function Eventinfo() {
                         </div>
                         <div className='back'>
                         <p><span style={{ color: "#08bd8f" }}>Electric Vehicle</span></p>
-                            <p><span style={{ color: "#08bd8f" }}><BsPersonCircle/></span>  Mr. Vykunt</p>
-                            <p><span style={{ color: "#08bd8f" }}><FaEnvelope/><br></br></span><a href='mailto:vykunta.rao@wilp.bits-pilani.ac.in'>vykunta.rao@wilp.bits-pilani.ac.in</a></p>
-                            <p><span style={{ color: "#08bd8f" }}><FaPhoneVolume/></span>7416196828</p>
+                            <p className='hide'><span style={{ color: "#08bd8f" }}><BsPersonCircle/></span>  Mr. Vykunt</p>
+                            <p><span style={{ color: "#08bd8f" }}><a style={{ color: "#08bd8f" }} href='mailto:vykunta.rao@wilp.bits-pilani.ac.in'><FaEnvelope/></a><br></br></span><a className='hide' href='mailto:vykunta.rao@wilp.bits-pilani.ac.in'>vykunta.rao@wilp.bits-pilani.ac.in</a></p>
+                            <p className='hide'><span style={{ color: "#08bd8f" }}><FaPhoneVolume/></span>7416196828</p>
                             <button onClick={event =>  window.location.href='/exploreev'}>Explore Projects</button>
                         </div>
                     </div>
