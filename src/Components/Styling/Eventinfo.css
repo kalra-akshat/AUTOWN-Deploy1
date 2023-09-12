@@ -29,13 +29,14 @@
     display: flex;
     justify-content: space-around;
     padding: 2% 2%;
+    height: 100%;
     /* background: linear-gradient(#101010,black); */
 }
 .card-box {
     /* background-color: #191919; */
     margin: 2%;
     width: 25%;
-    height: 360px;
+    height: 75%;
     /* border-radius: 10%; */
     text-align: center;
     /* box-shadow: 0 10px 10px #08bd8f; */
