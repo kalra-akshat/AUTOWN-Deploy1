@@ -8,6 +8,7 @@ import { FaEnvelope } from "react-icons/fa6";
 import { BsPersonCircle } from "react-icons/bs";
 function Eventinfo() {
     
+    
 
     return (
         <div className='Event'>
