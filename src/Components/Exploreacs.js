@@ -1,4 +1,3 @@
-import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import './Styling/Exploreacs.css'
 import bits_logo from './Images/bits_logo.png'
 function Exploreacs() {
@@ -29,12 +28,8 @@ function Exploreacs() {
 
                 </ul>
             </nav>
-            <Parallax pages={7.75} className="animation">
-                <ParallaxLayer offset={0} speed={1.5} >
-                    <div className="animation_layer1 parallax" id="background" >
-                    </div>
-                </ParallaxLayer>
-                <ParallaxLayer offset={0} speed={0.5} >
+            <div  className="animation">
+                <div>
                     <div className="contentblock" >
                         <div className='head'>Automotive Control Systems & Diagnostics</div>
                         <div className='infoblock1' >
@@ -237,8 +232,8 @@ function Exploreacs() {
 
                         <div className='register'><a href='/regacs'>REGISTER</a></div>
                     </div>
-                </ParallaxLayer>
-            </Parallax>
+                </div>
+            </div>
         </div>
     )
 }

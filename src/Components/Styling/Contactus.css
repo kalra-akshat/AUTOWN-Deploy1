@@ -71,3 +71,9 @@
     width: auto;  
     height: 60%;
 }
+
+@media screen and (max-width: 768px){
+    .Contactus .contact{
+        scale: 0.8;
+    }
+}

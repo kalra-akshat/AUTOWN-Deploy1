@@ -1,11 +1,10 @@
 
 
-.App4 .animation_layer1 {
-    height: 90000px;
-    margin-left: 60%;
+.App4 .animation {
     background-image: url('../Images/bg2.jpg');
     background-repeat: repeat-y;
-    background-size: 200%;
+    background-size: 100%;
+    background-position: 30% 0px  ; 
     
 }
 
@@ -86,7 +85,7 @@
     align-items: center;
     background-color: transparent;
     display: flex;
-    position: absolute;
+    position: fixed;
 
 
 }

@@ -1,3 +1,11 @@
 .mainpage{
     background: linear-gradient(#00060f, black); 
 }
+
+@media screen and (max-width: 896px) {
+    .mainpage{background: linear-gradient(#00060f, black); 
+        width: 100%;;
+    }
+    
+    
+}

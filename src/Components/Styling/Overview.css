@@ -40,3 +40,29 @@
     height: 25%;
     margin-left: 9%;
 } 
+
+
+
+
+@media screen and (max-width: 960px) {
+    .overview{
+        scale: 0.8;
+        height: auto;
+    }
+
+    .overview h2 {
+        font-size: 30px;
+        padding-top: 5%;
+    }
+
+    .overview-text p {
+        width: 90%;
+        margin: 5% auto;
+        font-size: 18px;
+    }
+
+    .binoc {
+        width: 60%;
+        max-width: 200px;
+    }
+}
