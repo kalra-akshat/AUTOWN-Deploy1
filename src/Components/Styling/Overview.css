@@ -47,8 +47,7 @@
 @media screen and (max-width: 500px) {
     .overview{
         height: auto;
-        width: 80%;
-        scale: 0.8;
+        width: 100%;
     }
 
     .overview h2 {
@@ -59,12 +58,20 @@
     .overview-text p{
         width: 100%;
         font-size: 18px;
-        margin-left: 10%;
+        margin: 0%;
+        margin-top: 8%;
 
     }
 
     .binoc {
-        width: 60%;
-        max-width: 200px;
+        margin-left: 0%;
+        max-width: 150px;
     }
+
+    .main {
+        flex-direction: column;
+        scale: 0.8;
+        width: 100%;
+    }
+    
 }

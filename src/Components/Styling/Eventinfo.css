@@ -71,7 +71,7 @@
     flex-direction: column;
     transform: rotateY(180deg);
     backface-visibility: hidden;
-    /* position: absolute; */
+    position: absolute;
     top:  5%;
     -webkit-backface-visibility: hidden;
     
@@ -149,25 +149,35 @@
 @media screen and (max-width: 500px) {
      .card-box .card .front .icon{
         font-size: 200%;
+        margin-top: 10%;
     }
     .card-box .card .front h5{
         font-size: 8px;
     }
+    
     .card-box .card .back .card-head{
         scale: 0.8;
         margin-top: 0%;
     }
     .card-box .card .back .hide{
         display: none;
-        width: 10%;
     }
     .card-box .card .back button{
         bottom: 5%;
         font-size: 10px;
     }
-
+    .box{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        margin-top: 2%;
+    }
     .card-box{
-        height: 80%;
+        width: 80%;
+    }
+    .Event{
+        height: 100vh;
     }
 
 }
