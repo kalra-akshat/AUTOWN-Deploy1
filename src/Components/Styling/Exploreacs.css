@@ -154,7 +154,7 @@
         font-size: 20px;
     }
     .App4  ul {
-        scale: 0.75;
+        scale: 0.6;
         width: 100%;
         align-items: center;
         background-color: transparent;
@@ -176,6 +176,7 @@
     .App4{
         background-size: 120%;
         background-repeat: no-repeat;
+        background-color: #060807;
     }
 
 }

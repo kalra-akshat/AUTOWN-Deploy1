@@ -154,30 +154,32 @@
   @media screen and (max-width: 500px) {
     .mainapp .navStyle {
         flex-direction: column;
-        margin-top: 15%;
+        margin-top: 12%;
         padding-left: 0%;
         margin-left: 30%;
     }
     .mainapp .mainlayout {
-        /* display: flex; */
+
         height: 100dvh;
         width: 100dvw;
         background-image: url('../Images/backgroundmain.jpg');
-        background-size: cover;
+        background-size: 100%;
+        background-repeat: no-repeat;
         
     }
     .mainapp nav {
         justify-content: space-between;
-        margin-top: 10%;
+        margin-top: 5%;
     }
 
     .mainapp nav ul li a {
         font-size: 16px;
+
     }
 
     .mainapp .content {
         left: -5%;
-        top: 40%;
+        top: 20%;
         scale: 0.6;
         width: 80%;
     }
@@ -190,7 +192,7 @@
     }
     .mainapp .bits_logo{
         /* position: absolute; */
-        width: 40%;
+        width: 30%;
         margin-left: 3%;
     }
 }
