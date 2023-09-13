@@ -153,10 +153,9 @@
 
   @media screen and (max-width: 500px) {
     .mainapp .navStyle {
-        flex-direction: column;
-        margin-top: 10%;
+        justify-content: space-around;
         padding-left: 0%;
-        margin-left: 30%;
+        width: 100%;
     }
     .mainapp .mainlayout {
 
@@ -168,7 +167,8 @@
     }
     .mainapp nav {
         justify-content: space-between;
-        margin-top: 5%;
+        margin-top: 2%;
+        flex-direction: column;
     }
 
     .mainapp nav ul li a {
@@ -178,7 +178,7 @@
 
     .mainapp .content {
         left: -10%;
-        top: 20%;
+        top: 30%;
         scale: 0.6;
         width: 80%;
     }
