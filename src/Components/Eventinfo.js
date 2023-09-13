@@ -27,10 +27,10 @@ function Eventinfo() {
                             <h5>CONNECTED</h5>
                         </div>
                         <div className='back'>
-                        <p className='card-head' style={{ width: "90%"}}><span style={{ color: "#08bd8f", marginLeft: "15%"}}>Automotive Control Systems & Diagnostics</span></p>
+                        <p className='card-head' style={{ width: "100%"}}><span style={{ color: "#08bd8f"}}>Automotive Control Systems & Diagnostics</span></p>
                             <p className='hide'><span style={{ color: "#08bd8f" }}><BsPersonCircle/></span>  Mr. Vennish & Mr. Sanjai</p>
                             <p><span style={{ color: "#08bd8f" }}>
-                                <a style={{ color: "#08bd8f" }} href='mailto:vennishmuthu@wilp.bits-pilani.ac.in' ><FaEnvelope/>
+                                <a className='up' style={{ color: "#08bd8f" }} href='mailto:vennishmuthu@wilp.bits-pilani.ac.in' ><FaEnvelope/>
                                     </a><br></br></span><a className='hide' href='mailto:vennishmuthu@wilp.bits-pilani.ac.in'>vennishmuthu@wilp.bits-pilani.ac.in</a><br></br><a className='hide'  href='mailto:sanjai.k@pilani.bits-pilani.ac.in'>sanjai.k@pilani.bits-pilani.ac.in </a></p>
                             <p className='hide'><span style={{ color: "#08bd8f" }}><FaPhoneVolume/> </span> 8056320310 || 8657592434</p>
                             <button onClick={event =>  window.location.href='/exploreacs'}>Explore Projects</button>
@@ -48,7 +48,7 @@ function Eventinfo() {
                         <p className='card-head'><span style={{ color: "#08bd8f"}}>Advanced Driver Assistance System</span></p>
                             <p className='hide'><span style={{ color: "#08bd8f" }}><BsPersonCircle/></span>  Mr. Parjanya</p>
                             <p><span style={{ color: "#08bd8f" }}>
-                            <a style={{ color: "#08bd8f"}} href='mailto:parjanya.yaragani@pilani.bits-pilani.ac.in' ><FaEnvelope/></a><br></br></span><a className='hide' href='mailto:parjanya.yaragani@pilani.bits-pilani.ac.in'>parjanya.yaragani@pilani.bits-pilani.ac.in</a></p>
+                            <a className='up' style={{ color: "#08bd8f"}} href='mailto:parjanya.yaragani@pilani.bits-pilani.ac.in' ><FaEnvelope/></a><br></br></span><a className='hide' href='mailto:parjanya.yaragani@pilani.bits-pilani.ac.in'>parjanya.yaragani@pilani.bits-pilani.ac.in</a></p>
                             <p className='hide'><span style={{ color: "#08bd8f" }}><FaPhoneVolume/></span> 6354835188</p>
                             <button onClick={event =>  window.location.href='/exploreadas'}>Explore Projects</button>
                         </div>
