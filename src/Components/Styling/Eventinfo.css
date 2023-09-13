@@ -155,7 +155,7 @@
     }
     
     .card-box .card .back .card-head{
-        scale: 0.8;
+        scale: 0.9;
         margin-top: 0%;
     }
     .card-box .card .back .hide{
@@ -180,6 +180,7 @@
     }
     .card-box .card .back p{
         margin-top: 0%;
+        font-size: 12px;
     }
     .back button{
         margin-bottom: 5%;
