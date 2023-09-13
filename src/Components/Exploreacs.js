@@ -29,7 +29,6 @@ function Exploreacs() {
                 </ul>
             </nav>
             <div  className="animation">
-                <div>
                     <div className="contentblock" >
                         <div className='head'>Automotive Control Systems & Diagnostics</div>
                         <div className='infoblock1' >
@@ -54,7 +53,7 @@ function Exploreacs() {
                             </p>
                         </div>
                         <div className='infoblock2' >
-                            <h2>Fuzzy Traction Control Challenge" - Advancing Vehicle Traction Control with Fuzzy Logic</h2>
+                            <h2>Fuzzy Traction Control Challenge - Advancing Vehicle Traction Control with Fuzzy Logic</h2>
                             <h3>Description</h3>
                             <p><span className='heading'>Introduction</span>:
                                 The "Fuzzy Traction Control Challenge" is an exhilarating competition that revolves around pushing the boundaries of vehicle traction control using fuzzy logic. Traction control systems play a vital role in ensuring safe and stable driving conditions, particularly in challenging road and weather scenarios. In this competition, participants will dive into the world of control systems, automotive engineering, and fuzzy logic to pioneer innovative traction control solutions that enhance vehicle stability, performance, and safety.
@@ -81,7 +80,7 @@ function Exploreacs() {
                         </div>
 
                         <div className='infoblock1' >
-                            <h2>Cruise Control Innovation Challenge" - Advancing Autonomous Driving with Next-Gen Cruise Control Systems</h2>
+                            <h2>Cruise Control Innovation Challenge - Advancing Autonomous Driving with Next-Gen Cruise Control Systems</h2>
                             <h3>Description</h3>
                             <p><span className='heading'>Introduction</span>:
                                 The "Cruise Control Innovation Challenge" is an exhilarating competition aimed at revolutionizing the field of cruise control systems for vehicles. Cruise control, a fundamental component of modern driving, is evolving with the integration of automation and advanced technologies. In this competition, participants will dive into the realms of automotive engineering, automation, and control systems to pioneer next-generation cruise control solutions that enhance safety, efficiency, and driver comfort.
@@ -108,7 +107,7 @@ function Exploreacs() {
                         </div>
 
                         <div className='infoblock2' >
-                            <h2>Virtual Vehicle Diagnostics Challenge" - Revolutionizing Automotive Troubleshooting and Maintenance</h2>
+                            <h2>Virtual Vehicle Diagnostics Challenge - Revolutionizing Automotive Troubleshooting and Maintenance</h2>
                             <h3>Description</h3>
                             <p><span className='heading'>Introduction</span>:
                                 The "Virtual Vehicle Diagnostics Challenge" is an exciting competition that delves into the realm of cutting-edge technology and automotive maintenance. In modern vehicles, diagnosing and troubleshooting complex issues require advanced tools and expertise. In this competition, participants will harness their skills in software development, data analysis, and automotive systems to create innovative virtual vehicle diagnostics solutions that streamline troubleshooting, reduce downtime, and enhance maintenance efficiency.
@@ -135,7 +134,7 @@ function Exploreacs() {
                         </div>
 
                         <div className='infoblock1' >
-                            <h2>DIY OBD-II Code Scanner Challenge" - Crafting Your Own Diagnostic Tool with Arduino or Raspberry Pi</h2>
+                            <h2>DIY OBD-II Code Scanner Challenge - Crafting Your Own Diagnostic Tool with Arduino or Raspberry Pi</h2>
                             <h3>Description</h3>
                             <p><span className='heading'>Introduction</span>:
                                 The "DIY OBD-II Code Scanner Challenge" is an engaging competition that invites participants to dive into the world of automotive diagnostics and technology. Modern vehicles are equipped with On-Board Diagnostics II (OBD-II) systems that provide valuable diagnostic information. In this competition, participants will harness their creativity and technical skills to build custom OBD-II code scanners using Arduino or Raspberry Pi. By connecting to the vehicle's OBD-II port and developing software to interpret diagnostic trouble codes (DTCs), participants will empower themselves with a deeper understanding of vehicle health and diagnostics.
@@ -159,7 +158,7 @@ function Exploreacs() {
 
 
                         <div className='infoblock2' >
-                            <h2>Custom Vehicle Dashboard Display Challenge" - Crafting Your Own Real-Time Data Display with Arduino or Raspberry Pi</h2>
+                            <h2>Custom Vehicle Dashboard Display Challenge - Crafting Your Own Real-Time Data Display with Arduino or Raspberry Pi</h2>
                             <h3>Description</h3>
                             <p><span className='heading'>Introduction</span>:
                                 The "Custom Vehicle Dashboard Display Challenge" invites participants to embark on a journey of creativity and innovation by designing and constructing a personalized dashboard display for vehicles. Modern drivers seek real-time information at their fingertips to enhance their driving experience. In this competition, participants will leverage their electronics, programming, and design skills to create custom dashboard displays using Arduino or Raspberry Pi. By gathering data from the car's sensors and presenting it on a dynamic screen, participants will revolutionize how drivers interact with their vehicles.
@@ -183,7 +182,7 @@ function Exploreacs() {
 
 
                         <div className='infoblock1' >
-                            <h2>Fault Diagnosis Simulator Challenge" - Advancing Automotive Troubleshooting with Virtual Fault Scenarios</h2>
+                            <h2>Fault Diagnosis Simulator Challenge - Advancing Automotive Troubleshooting with Virtual Fault Scenarios</h2>
                             <h3>Description</h3>
                             <p><span className='heading'>Introduction</span>:
                                 The "Fault Diagnosis Simulator Challenge" presents a unique competition that delves into the realm of automotive diagnostics and virtual technology. Accurate fault diagnosis is essential for maintaining vehicle performance and safety. In this competition, participants will harness their technical prowess to design and build a virtual fault diagnosis simulator. By creating a platform that simulates various vehicle faults and challenges, participants will enhance their diagnostic skills and contribute to the development of innovative training tools for automotive professionals.
@@ -207,7 +206,7 @@ function Exploreacs() {
                         </div>
 
                         <div className='infoblock2' >
-                            <h2>Diagnostic Decision Support System Challenge" - Innovating Automotive Troubleshooting with AI-Powered Solutions</h2>
+                            <h2>Diagnostic Decision Support System Challenge - Innovating Automotive Troubleshooting with AI-Powered Solutions</h2>
                             <h3>Description</h3>
                             <p><span className='heading'>Introduction</span>:
                                 The "Diagnostic Decision Support System Challenge" is an exciting competition that delves into the intersection of artificial intelligence (AI) and automotive diagnostics. Effective fault diagnosis is crucial for maintaining vehicle performance and safety. In this competition, participants will harness their technical and AI expertise to design and build a cutting-edge Diagnostic Decision Support System (DDSS). By creating a smart platform that assists mechanics and technicians in diagnosing vehicle issues, participants will contribute to advancing the efficiency and accuracy of automotive troubleshooting.
@@ -233,7 +232,6 @@ function Exploreacs() {
                         <div className='register'><a href='/regacs'>REGISTER</a></div>
                     </div>
                 </div>
-            </div>
         </div>
     )
 }

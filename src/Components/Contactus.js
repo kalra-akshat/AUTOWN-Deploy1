@@ -39,22 +39,22 @@ function ContactUs() {
                     
                     <form onSubmit={handleSubmit}>
                         <label htmlFor='fname'>First Name</label>
-                        <input className='inparea1' autoComplete='off' name='fname' id='fname'
+                        <input className='inparea1' autoComplete='off' name='fname' id='fname' required='true'
                             value={userInput.fname}
                             onChange={handleInput}
                         type='text' placeholder='First Name'></input>
                         <label htmlFor='lname'>Last Name</label>
-                        <input className='inparea1' autoComplete='off' name='lname' id='lname'
+                        <input className='inparea1' autoComplete='off' name='lname' id='lname' required='true'
                             value={userInput.lname}
                             onChange={handleInput}
                         type='text' placeholder='Last Name' ></input>
                         <label htmlFor='email'>Email</label>
-                        <input className='inparea1' autoComplete='off' name='email' id='email'
+                        <input className='inparea1' autoComplete='off' name='email' id='email' required='true'
                             value={userInput.email}
                             onChange={handleInput}
                         type='text' placeholder='Email' ></input>
                         <label htmlFor='message'>Message</label>
-                        <input className='inparea2' autoComplete='off'  name='message'  id='message'
+                        <input className='inparea2' autoComplete='off'  name='message'  id='message' required='true'
                             value={userInput.message}
                             onChange={handleInput}
                         type='text' placeholder='Message' ></input>

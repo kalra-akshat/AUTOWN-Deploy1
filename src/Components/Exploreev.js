@@ -1,4 +1,3 @@
-import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import './Styling/Exploreev.css'
 import bits_logo from './Images/bits_logo.png'
 import bg2 from './Images/bg2.jpg'
@@ -30,12 +29,9 @@ function Exploreev() {
 
                 </ul>
             </nav>
-            <Parallax pages={5} className="animation">
-                <ParallaxLayer offset={0} speed={1.5} >
-                    <div className="animation_layer1 parallax" id="background" >
-                    </div>
-                </ParallaxLayer>
-                <ParallaxLayer offset={0} speed={0.5} >
+            <div className="animation">
+                
+                <div offset={0} speed={0.5} >
                     
                     <div className="contentblock" >
                         <div className='head'>Electric vehicle</div>
@@ -198,8 +194,8 @@ function Exploreev() {
 
                         <div className='register'><a href='/regev'>REGISTER</a></div>
                     </div>
-                </ParallaxLayer>
-            </Parallax>
+                </div>
+            </div>
         </div>
     )
 }

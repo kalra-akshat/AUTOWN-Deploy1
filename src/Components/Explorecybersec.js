@@ -1,4 +1,3 @@
-import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import './Styling/Explorecybersec.css'
 import bits_logo from './Images/bits_logo.png'
 function Explorecybersec() {
@@ -31,12 +30,11 @@ function Explorecybersec() {
 
                 </ul>
             </nav>
-            <Parallax pages={5.75} style={{ top: '0', left: '0' }} className="animation">
-                <ParallaxLayer offset={0} speed={1.5} factor={2}>
-                    <div className="animation_layer1 parallax" id="background" >
-                    </div>
-                </ParallaxLayer>
-                <ParallaxLayer offset={0} speed={0.5} >
+            <div className="animation">
+                
+                    
+                </div>
+                <div >
                     <div className="contentblock" >
                         <div className='head'>CyberSecurity</div>
                         <div className='infoblock3' id='cs.1'>
@@ -220,8 +218,8 @@ function Explorecybersec() {
 
                         <div className='register'><a href='/regcs'>REGISTER</a></div>
                     </div>
-                </ParallaxLayer>
-            </Parallax>
+                </div>
+           
         </div>
     )
 }

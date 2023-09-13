@@ -1,18 +1,16 @@
 
 
-
-    .App3 .animation_layer1 {
-    height: 15000px;
-    margin-left: 60%;
-    background-image: url('../Images/bg2.jpg');
-    background-repeat: repeat-y;
-    background-size: 200%;
+.App3 {
+    background-image: url('../Images/bg3.jpg');
+    /* background-repeat: repeat-y;
+    background-size: 100%;
+    background-position: 30% 0px ;  */
+    background-color: black;
+    background-attachment: fixed;
+    background-position: center;
     
 }
 
-.App3 .register a{
-    color: #191919;
-}
 
 .App3 .infoblock1{
     background-color: #191919;
@@ -22,7 +20,7 @@
     margin-left: 15%;
     margin-top: 3%;
     padding: 2%;
-    color: white;
+    color: whitesmoke;
 }
 
 .App3 .infoblock2{
@@ -33,7 +31,7 @@
     margin-left:45%;
     margin-top: 3%;
     padding: 2%;
-    color: white;
+    color: whitesmoke;
 
 }
 
@@ -45,6 +43,7 @@
 .App3 h2{
     text-align: center;
     font-size: larger;
+    color: #08bd8f;
     font-size: 25px;
 }
 
@@ -58,46 +57,59 @@
 .App3 .heading{
     color: #08bd8f;
     font-size: 20px;
+
 }
 
 .App3 .register{
     text-align: center;
     margin-top: 10%;
     margin-left: 40%;
+    margin-bottom: 5%;
     width: 20%;
     font-size: 40px;
-    border: 6px double black;
+    border: 6px double #08bd8f;
     border-radius: 20px;
+    background-color: #191919;
+
+}
+.App3 .register:hover{
+    scale: 1.1;
+}
+
+.App3 .register a{
+    color: whitesmoke;
+
 }
 
 .App3 .head{
     text-align: center;
     padding-top: 3%;
     font-size: 40px;
+    color: whitesmoke;
 }
 
 .App3 nav {
 
-    height: 55vh;
     width: 100%;
     height: 15%;
     padding-top: 13%;
     align-items: center;
     background-color: transparent;
     display: flex;
-    position: absolute;
+    position: fixed;
 
 
 }
 
 .App3 ul {
-    border: 2px solid #191919;
+    border: 2px solid whitesmoke;
     width: 12%;
     margin-left: 1%;
     padding-left: 0px;
     border-radius: 20px;
     align-items: center;
     display: flex;
+    background-color: #191919;
     height: 60vh;
     flex-direction: column;
     margin-top: 20%;
@@ -106,7 +118,7 @@
 }
 
 .App3 ul li a {
-    color: #191919;
+    color: whitesmoke;
     font-size: 18px;
     
 }
@@ -117,4 +129,53 @@
     display: flex; 
     padding: 1%;
     
+}
+
+
+@media screen and (max-width: 500px) {
+    .App3 .infoblock1  {
+        width: 100%;
+        margin-left: 0%;
+        scale: 0.8;
+    
+    }
+    .App3 .contentblock{
+        border: 2px solid #08bd8f;
+    }
+    .App3 .infoblock2 {
+        width: 100%;
+        margin-left: 0%;
+        scale: 0.8;
+        padding-top: 0%;
+        padding-bottom: 0% ;
+    }
+    
+    .App3 .head {
+        font-size: 20px;
+    }
+    .App3  ul {
+        scale: 0.75;
+        width: 100%;
+        align-items: center;
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        margin-top: 5%;
+        border: 0px ;
+    }
+    .App3 .register{
+        margin-left: 30%;
+        border: 2px solid whitesmoke;
+        width: 40%;
+        font-size: 20px;
+        margin-top: 5%;
+    }
+    .App3 nav{
+        position: absolute;
+    }
+    .App3{
+        background-size: 120%;
+        background-repeat: no-repeat;
+    }
+
 }
