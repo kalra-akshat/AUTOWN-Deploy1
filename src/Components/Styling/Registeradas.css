@@ -96,3 +96,27 @@
     border-radius: 20px;
     font-size: larger;
 }
+
+
+@media screen and (max-width: 500px) {
+    .Regadas .heading{
+        font-size: medium;
+    }
+    .Regadas .form img {
+        display: none;
+    }
+    .Regadas .head {
+        font-size: large;
+        padding-left: 12%;
+        margin-top: 1.5%;
+    }
+    .Regadas .regform {
+        font-size: small;
+        width: 90%;
+    }
+    .Regadas .title img{
+        width: 100%;
+        margin-left: 10%;
+        margin-top: 15%;
+    }
+}

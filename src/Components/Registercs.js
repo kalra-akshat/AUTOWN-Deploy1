@@ -56,28 +56,28 @@ function Registercs() {
                     <form onSubmit={handleSubmit}>
                         <div className="form">
                             <div className="subform" > <label htmlFor='name'>Name</label>
-                                <input className='inparea1' autoComplete='off' name='csname' id='acsname'
+                                <input className='inparea1' autoComplete='off' name='csname' id='acsname' required="true"
                                     value={formInput.name}
                                     onChange={handleInput}
                                     type='text' placeholder='Name'></input>
 
 
                                 <label htmlFor='email'>Email</label>
-                                <input className='inparea1' autoComplete='off' name='csbitsemail' id='acsbitsemail'
+                                <input className='inparea1' autoComplete='off' name='csbitsemail' id='acsbitsemail' required="true"
                                     value={formInput.email}
                                     onChange={handleInput}
                                     type='text' placeholder='Email' ></input>
 
 
                                 <label htmlFor='bitsid'>BITS ID</label>
-                                <input className='inparea1' autoComplete='off' name='csbitsid' id='acsbitsid'
+                                <input className='inparea1' autoComplete='off' name='csbitsid' id='acsbitsid' required="true"
                                     value={formInput.bitsid}
                                     onChange={handleInput}
                                     type='text' placeholder='BITS ID' ></input>
 
 
                                 <label htmlFor='No. of Participants'>No. of Participants</label>
-                                <input className='inparea1' autoComplete='off' name='csparticipants' id='acsparticipants'
+                                <input className='inparea1' autoComplete='off' name='csparticipants' id='acsparticipants' required="true"
                                     value={formInput.participants}
                                     onChange={handleInput}
                                     type='text' placeholder='No. of Participants' ></input>

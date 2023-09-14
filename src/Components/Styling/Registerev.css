@@ -95,3 +95,27 @@
     border-radius: 20px;
     font-size: larger;
 }
+
+
+@media screen and (max-width: 500px) {
+    .Regev .heading{
+        font-size: medium;
+    }
+    .Regev .form img {
+        display: none;
+    }
+    .Regev .head {
+        font-size: large;
+        padding-left: 12%;
+        margin-top: 1.5%;
+    }
+    .Regev .regform {
+        font-size: small;
+        width: 90%;
+    }
+    .Regev .title img{
+        width: 100%;
+        margin-left: 10%;
+        margin-top: 15%;
+    }
+}

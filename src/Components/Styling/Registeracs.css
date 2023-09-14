@@ -96,3 +96,27 @@
     border-radius: 20px;
     font-size: larger;
 }
+
+
+@media screen and (max-width: 500px) {
+    .Regacs .heading{
+        font-size: medium;
+    }
+    .Regacs .form img {
+        display: none;
+    }
+    .Regacs .head {
+        font-size: large;
+        padding-left: 12%;
+        margin-top: 1.5%;
+    }
+    .Regacs .regform {
+        font-size: small;
+        width: 90%;
+    }
+    .Regacs .title img{
+        width: 100%;
+        margin-left: 10%;
+        margin-top: 15%;
+    }
+}

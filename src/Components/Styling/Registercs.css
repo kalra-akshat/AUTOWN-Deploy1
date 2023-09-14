@@ -96,3 +96,28 @@
     border-radius: 20px;
     font-size: larger;
 }
+
+
+
+@media screen and (max-width: 500px) {
+    .Regcs .heading{
+        font-size: medium;
+    }
+    .Regcs .form img {
+        display: none;
+    }
+    .Regcs .head {
+        font-size: large;
+        padding-left: 12%;
+        margin-top: 1.5%;
+    }
+    .Regcs .regform {
+        font-size: small;
+        width: 90%;
+    }
+    .Regcs .title img{
+        width: 100%;
+        margin-left: 10%;
+        margin-top: 15%;
+    }
+}

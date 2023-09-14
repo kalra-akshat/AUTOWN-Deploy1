@@ -55,28 +55,28 @@ function Registerev() {
                     <form onSubmit={handleSubmit}>
                         <div className="form">
                             <div className="subform" ><label htmlFor='name'>Name</label>
-                                <input className='inparea1' autoComplete='off' name='evname' id='evname'
+                                <input className='inparea1' autoComplete='off' name='evname' id='evname' required="true"
                                     value={formInput.name}
                                     onChange={handleInput}
                                     type='text' placeholder='Name'></input>
 
 
                                 <label htmlFor='email'>Email</label>
-                                <input className='inparea1' autoComplete='off' name='evbitsemail' id='evbitsemail'
+                                <input className='inparea1' autoComplete='off' name='evbitsemail' id='evbitsemail' required="true"
                                     value={formInput.email}
                                     onChange={handleInput}
                                     type='text' placeholder='Email' ></input>
 
 
                                 <label htmlFor='bitsid'>BITS ID</label>
-                                <input className='inparea1' autoComplete='off' name='evbitsid' id='evbitsid'
+                                <input className='inparea1' autoComplete='off' name='evbitsid' id='evbitsid' required="true"
                                     value={formInput.bitsid}
                                     onChange={handleInput}
                                     type='text' placeholder='BITS ID' ></input>
 
 
                                 <label htmlFor='No. of Participants'>No. of Participants</label>
-                                <input className='inparea1' autoComplete='off' name='evparticipants' id='evparticipants'
+                                <input className='inparea1' autoComplete='off' name='evparticipants' id='evparticipants' required="true"
                                     value={formInput.participants}
                                     onChange={handleInput}
                                     type='text' placeholder='No. of Participants' ></input>
