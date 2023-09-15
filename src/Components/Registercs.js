@@ -66,7 +66,7 @@ function Registercs() {
                                 <input className='inparea1' autoComplete='off' name='csbitsemail' id='acsbitsemail' required="true"
                                     value={formInput.email}
                                     onChange={handleInput}
-                                    type='text' placeholder='Email' ></input>
+                                    type='email' placeholder='Email' ></input>
 
 
                                 <label htmlFor='bitsid'>BITS ID</label>

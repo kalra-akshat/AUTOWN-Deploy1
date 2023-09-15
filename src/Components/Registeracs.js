@@ -7,7 +7,7 @@ function Registeracs() {
     const projects = [
         '"Electronic Throttle valve position control"',
         '"Fuzzy Traction Control Challenge" - Advancing Vehicle Traction Control with Fuzzy Logic',
-        '"Cruise Control Innovation Challenge" - Advancing Autonomous Driving with Next-Gen Cruise Control Systems',
+        // '"Cruise Control Innovation Challenge" - Advancing Autonomous Driving with Next-Gen Cruise Control Systems',
         '"Virtual Vehicle Diagnostics Challenge" - Revolutionizing Automotive Troubleshooting and Maintenance',
         '"DIY OBD-II Code Scanner Challenge" - Crafting Your Own Diagnostic Tool with Arduino or Raspberry Pi',
         '"Custom Vehicle Dashboard Display Challenge" - Crafting Your Own Real-Time Data Display with Arduino or Raspberry Pi',
@@ -69,7 +69,7 @@ function Registeracs() {
                                 <input className='inparea1' autoComplete='off' name='acsbitsemail' id='acsbitsemail' required="true"
                                     value={formInput.email}
                                     onChange={handleInput}
-                                    type='text' placeholder='Email' ></input>
+                                    type='email' placeholder='Email' ></input>
 
 
                                 <label htmlFor='bitsid'>BITS ID</label>

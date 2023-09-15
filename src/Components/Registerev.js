@@ -65,7 +65,7 @@ function Registerev() {
                                 <input className='inparea1' autoComplete='off' name='evbitsemail' id='evbitsemail' required="true"
                                     value={formInput.email}
                                     onChange={handleInput}
-                                    type='text' placeholder='Email' ></input>
+                                    type='email' placeholder='Email' ></input>
 
 
                                 <label htmlFor='bitsid'>BITS ID</label>

@@ -4,11 +4,12 @@ import './Styling/Registeradas.css';
 import formicon from './Images/formicon.png'
 function Registeradas() {
 
+
     const projects = [
-        "Response Time Minimization for Lateral Control in Autonomous Vehicles",
-        "Merging Perception Algorithms - Object Detection and Lane Detection using Transfer Learning Techniques",
-        "SLAM-Based Mapping of a Track for Autonomous Vehicles",
-        "Object Distance Measurement using Stereoscopic Vision"
+        "Autonomous Control Lightning Challenge",
+        "Perception Fusion Showdown - Object & Lane Detection Duel",
+        "SLAMMaster Mapping Race",
+        "Stereoscopic Vision Depth Challenge"
     ]
 
 
@@ -64,7 +65,7 @@ function Registeradas() {
                                 <input className='inparea1' autoComplete='off' name='bitsemail' id='bitsemail' required="true"
                                     value={formInput.email}
                                     onChange={handleInput}
-                                    type='text' placeholder='Email' ></input>
+                                    type='email' placeholder='Email' ></input>
 
 
                                 <label htmlFor='bitsid'>BITS ID</label>

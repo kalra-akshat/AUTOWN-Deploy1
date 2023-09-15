@@ -79,7 +79,7 @@ function Exploreacs() {
                             </p>
                         </div>
 
-                        <div className='infoblock1' >
+                        {/* <div className='infoblock1' >
                             <h2>Cruise Control Innovation Challenge - Advancing Autonomous Driving with Next-Gen Cruise Control Systems</h2>
                             <h3>Description</h3>
                             <p><span className='heading'>Introduction</span>:
@@ -104,9 +104,9 @@ function Exploreacs() {
                                 <span className='heading'>Human-Machine Interface (HMI)</span>:
                                 Participants may develop intuitive HMI interfaces that provide drivers with control and visibility over the cruise control system's actions.
                             </p>
-                        </div>
+                        </div> */}
 
-                        <div className='infoblock2' >
+                        <div className='infoblock1' >
                             <h2>Virtual Vehicle Diagnostics Challenge - Revolutionizing Automotive Troubleshooting and Maintenance</h2>
                             <h3>Description</h3>
                             <p><span className='heading'>Introduction</span>:
@@ -133,7 +133,7 @@ function Exploreacs() {
                             </p>
                         </div>
 
-                        <div className='infoblock1' >
+                        <div className='infoblock2' >
                             <h2>DIY OBD-II Code Scanner Challenge - Crafting Your Own Diagnostic Tool with Arduino or Raspberry Pi</h2>
                             <h3>Description</h3>
                             <p><span className='heading'>Introduction</span>:
@@ -157,7 +157,7 @@ function Exploreacs() {
                         </div>
 
 
-                        <div className='infoblock2' >
+                        <div className='infoblock1' >
                             <h2>Custom Vehicle Dashboard Display Challenge - Crafting Your Own Real-Time Data Display with Arduino or Raspberry Pi</h2>
                             <h3>Description</h3>
                             <p><span className='heading'>Introduction</span>:
@@ -181,7 +181,7 @@ function Exploreacs() {
                         </div>
 
 
-                        <div className='infoblock1' >
+                        <div className='infoblock2' >
                             <h2>Fault Diagnosis Simulator Challenge - Advancing Automotive Troubleshooting with Virtual Fault Scenarios</h2>
                             <h3>Description</h3>
                             <p><span className='heading'>Introduction</span>:
@@ -205,7 +205,7 @@ function Exploreacs() {
                                 Participants will ensure that the simulator offers realistic visuals, interactive feedback, and accurate fault behavior, enhancing the authenticity of the training experience.   </p>
                         </div>
 
-                        <div className='infoblock2' >
+                        <div className='infoblock1' >
                             <h2>Diagnostic Decision Support System Challenge - Innovating Automotive Troubleshooting with AI-Powered Solutions</h2>
                             <h3>Description</h3>
                             <p><span className='heading'>Introduction</span>:

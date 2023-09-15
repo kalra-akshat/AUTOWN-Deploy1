@@ -52,7 +52,7 @@ function ContactUs() {
                         <input className='inparea1' autoComplete='off' name='email' id='email' required='true'
                             value={userInput.email}
                             onChange={handleInput}
-                        type='text' placeholder='Email' ></input>
+                        type='email' placeholder='Email' ></input>
                         <label htmlFor='message'>Message</label>
                         <input className='inparea2' autoComplete='off'  name='message'  id='message' required='true'
                             value={userInput.message}
