@@ -7,7 +7,7 @@ function ExploreADAS() {
             <nav >
                 <ul >
                     <li>
-                        <img src={bits_logo} style={{width:'100%'}}></img>
+                        <img src={bits_logo} style={{ width: '100%' }}></img>
                     </li>
                     <li>
                         <a href='/'>HOME</a>
@@ -26,57 +26,99 @@ function ExploreADAS() {
                     <li>
                         <a href='/regadas'>REGISTER</a>
                     </li>
-                     
+
                 </ul>
             </nav>
             <div className="animation">
-            
+
                 <div offset={0} speed={0.5} >
                     <div className="contentblock" >
-                        <div className='head'>Autonomous Control Lightning Challenge</div>
+                        <div className='head'>Advanced Driver Assistance Systems</div>
+
+
+
+
                         <div className='infoblock1' >
-                            <h2>Race against time to minimize response delays in autonomous vehicles' lateral & longitudinal control!</h2>
+                            <h2>Autonomous Control Lightning Challenge: Accelerating Responsiveness for Safe and Efficient Driving</h2>
                             <h3>Description</h3>
                             <p><span className='heading'>Introduction</span>:
-                                Autonomous vehicles have emerged as a transformative technology, promising safer and more efficient transportation systems. One of the critical challenges in developing autonomous vehicles is ensuring precise and efficient lateral control, which governs the vehicle's ability to navigate curves, turns, and lane changes. Response time plays a crucial role in the vehicle's ability to react swiftly and accurately to dynamic road conditions and potential hazards.
+                                In this high-speed competition, participants will engage in a race against time to reduce response delays in autonomous vehicles' lateral and longitudinal control. The goal is to enhance the responsiveness of autonomous systems, ensuring safe and efficient driving in dynamic environments.
                                 <br></br>
                                 <span className='heading'>Competition Objective</span>:
-                                The primary goal of this competition is to develop innovative solutions and algorithms that minimize response time for lateral control in autonomous vehicles. Participants are expected to design control systems that enhance the vehicle's ability to follow desired paths while ensuring smooth and timely adjustments to various driving scenarios."
-                            </p>
+                                Develop cutting-edge algorithms, control strategies, and sensor fusion techniques to significantly minimize response delays in the lateral and longitudinal control of autonomous vehicles.  </p>
                             <h3>Task</h3>
-                            <p><span className='heading'>Algorithm Development</span>: Participants will be required to develop advanced control algorithms that optimize response time for lateral control in autonomous vehicles. The algorithms should prioritize safety, stability, and efficiency while achieving rapid and precise vehicle maneuvers.
+                            <p>
+                                <span className='heading'>        Real-Time Decision-Making</span>: Create algorithms that enable real-time decision-making for autonomous vehicles, considering factors like vehicle dynamics, sensor data, and road conditions.
                                 <br></br>
-                                <span className='heading'>Real-World Demonstration</span>: Top-performing participants will have the opportunity to demonstrate their algorithms in real-world tests using autonomous vehicle in ADAS lab"
+                                <span className='heading'>Sensor Fusion</span>: Develop advanced sensor fusion methods to improve perception accuracy and reduce latency in interpreting sensor inputs.
+                                <br></br>
+                                <span className='heading'>Dynamic Environment Handling</span>: Design strategies to handle rapidly changing traffic situations, such as sudden lane changes, unexpected obstacles, and fast-moving vehicles.
+                                <br></br>
+                                <span className='heading'>Safe Maneuvers</span>: Ensure that the autonomous vehicles can make safe and efficient maneuvers, such as lane changes, merging onto highways, and navigating intersections with minimal delays.
+                                <br></br>
+                                <span className='heading'>Performance Metrics</span>: Establish metrics for evaluating the responsiveness of autonomous control systems, including response time, control accuracy, and safety.
                             </p>
 
                         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                         <div className='infoblock2' >
                             <h2>Perception Fusion Showdown - Object & Lane Detection Duel</h2>
                             <h3>Description</h3>
                             <p><span className='heading'>Introduction</span>:
-                            Compete in the Perception Fusion Showdown! Harness transfer learning techniques to merge object detection and lane detection algorithms.<br></br>
+                                In this exciting competition, participants will engage in a showdown to advance the field of perception fusion in autonomous vehicles. The focus is on improving object detection and lane detection algorithms and integrating them seamlessly to enhance the perception capabilities of autonomous systems.
                                 <span className='heading'>Competition Objective</span>:
-                                The main objective of this competition is to develop innovative solutions that merge object detection and lane detection algorithms using transfer learning techniques. Participants are expected to create a seamless and efficient perception system capable of simultaneously detecting objects and identifying lane boundaries to enable safe and autonomous navigation."
+                                Develop state-of-the-art perception fusion techniques that combine object detection and lane detection for autonomous vehicles, ultimately improving their ability to navigate safely and efficiently in complex environments.
+
                             </p>
                             <h3>Task</h3>
-                            <p><span className='heading'>Dataset Preparation</span>:
-                                Collect a diverse dataset containing real-world driving images and corresponding annotations, including object bounding boxes and lane markings. The dataset will cover various environmental conditions, lighting, and road types.
+                            <p>
+                                <span className='heading'>   Object Detection</span>: Create advanced object detection models capable of accurately identifying and tracking a wide range of objects in real-time, including vehicles, pedestrians, cyclists, and road signs.
                                 <br></br>
-                                <span className='heading'>Algorithm Development</span>:
-                                Using transfer learning, competitors will design and train perception models capable of jointly detecting objects and identifying lane boundaries in a given image. Participants can use pre-trained models, fine-tuning them on the provided dataset, or explore novel architectures to achieve optimal performance.
+                                <span className='heading'>Lane Detection</span>: Develop robust lane detection algorithms that can effectively identify lane markings, road boundaries, and lane geometry under varying weather and lighting conditions.
                                 <br></br>
-                                <span className='heading'>Integration of Perception Algorithms</span>:
-                                Participants will develop techniques to seamlessly integrate the object detection and lane detection models into a cohesive perception system. The goal is to achieve efficient parallel processing while ensuring accurate and real-time results.
+                                <span className='heading'>Perception Fusion</span>: Design and implement fusion strategies that seamlessly integrate object and lane detection outputs to provide a comprehensive understanding of the vehicle's surroundings.
                                 <br></br>
-                                <span className='heading'>Evaluation and Optimization</span>:
-                                The developed perception system will be evaluated on a separate test dataset with metrics that assess the accuracy and efficiency of object detection and lane detection. Participants are encouraged to optimize their models for both speed and accuracy."
+                                <span className='heading'>Real-World Scenarios</span>: Evaluate the perception fusion systems in realistic driving scenarios, including urban environments, highways, and challenging weather conditions.
+                                <br></br>
+                                <span className='heading'>Scalability</span>: Ensure that the perception fusion solutions are scalable and adaptable to various autonomous vehicle platforms and sensor configurations.
+
                             </p>
                         </div>
+
+
+
+
+
+
+
+
+
+
+
+
                         <div className='infoblock1' >
                             <h2>SLAMMaster Mapping Race</h2>
                             <h3>Description</h3>
                             <p><span className='heading'>Introduction</span>:
-                            Enter the SLAMMaster Mapping Race and conquer the track! Use SLAM techniques to map a predetermined route with precision.<br></br>
+                                Enter the SLAMMaster Mapping Race and conquer the track! Use SLAM techniques to map a predetermined route with precision.<br></br>
                                 <span className='heading'>Competition Objective</span>:
                                 The main objective of this competition is to foster creativity, problem-solving skills, and robotics knowledge among students by building a small robot that demonstrates the ability to autonomously navigate, self-localize, and construct a map of its surroundings. Students will apply concepts from robotics, computer vision, and sensor fusion to develop a fully functional and efficient robot capable of real-time mapping."
                             </p>
@@ -98,7 +140,7 @@ function ExploreADAS() {
                             <h2>Stereoscopic Vision Depth Challenge</h2>
                             <h3>Description</h3>
                             <p><span className='heading'>Introduction</span>:
-                            Engage in the Stereoscopic Vision Depth Challenge! Leverage the power of dual cameras to measure object distances accurately. </p>
+                                Engage in the Stereoscopic Vision Depth Challenge! Leverage the power of dual cameras to measure object distances accurately. </p>
                             <h3>Task</h3>
                             <p><span className='heading'>Stereo Camera Setup</span>: Participants will set up a stereo camera system consisting of two or more synchronized cameras, capturing images simultaneously from slightly different viewpoints.
                                 <br></br>
