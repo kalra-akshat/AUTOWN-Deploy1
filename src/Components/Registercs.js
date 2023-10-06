@@ -16,6 +16,7 @@ function Registercs() {
 
     const [formInput, updateFormInput] = useState({
         csname: "",
+        csnum: "",
         csbitsemail: "",
         csbitsid: "",
         csparticipants: "",
@@ -27,7 +28,7 @@ function Registercs() {
     const handleSubmit = (e) => {
         e.preventDefault();
         let data = new FormData(form);
-        fetch('https://script.google.com/macros/s/AKfycbzB3Z0-UFWQ7fw7B1JpY6BAvpgTtKQdolHlKno_S9QkNDgcxpnBnk16MdOfp1o658zd/exec', {
+        fetch('https://script.google.com/macros/s/AKfycbxXQht9_z2gP1MvkKfjeTmpSjBJnmP_cPWnxa7n9qMU_jA91rysKqOt7tjyidXyX0j_/exec', {
             method: "POST",
             body: data
         })
@@ -60,6 +61,12 @@ function Registercs() {
                                     value={formInput.name}
                                     onChange={handleInput}
                                     type='text' placeholder='Name'></input>
+
+<label htmlFor='num'>Contact Number</label>
+                                <input className='inparea1' autoComplete='off' name='csnum' id='csnum' required="true"
+                                    value={formInput.num}
+                                    onChange={handleInput}
+                                    type='text' placeholder='Number'></input>
 
 
                                 <label htmlFor='email'>Email</label>

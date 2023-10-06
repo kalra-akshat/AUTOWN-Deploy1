@@ -14,11 +14,12 @@ function Registerev() {
 
 
     const [formInput, updateFormInput] = useState({
-        csname: "",
-        csbitsemail: "",
-        csbitsid: "",
-        csparticipants: "",
-        csproj: ""
+        evname: "",
+        evnum: "",
+        evbitsemail: "",
+        evbitsid: "",
+        evparticipants: "",
+        evproj: ""
     })
 
     let form = document.querySelector("form");
@@ -26,13 +27,13 @@ function Registerev() {
     const handleSubmit = (e) => {
         e.preventDefault();
         let data = new FormData(form);
-        fetch('https://script.google.com/macros/s/AKfycbxDQ3dIYHYN8UGvGc4HBNyFG3Rwn4o85cJuQEvxNPF60KKStwIl8olZJSnJKrprDjE/exec', {
+        fetch('https://script.google.com/macros/s/AKfycbxsixdjcWi4qwasDFqePBSxMSqAFycLgBVeYr4nJtRNUJ6l42gWSuJMFgCmmQgRJHVZ/exec', {
             method: "POST",
             body: data
         })
             .then(res => res.text())
             .then(window.location.href = '/')
-            .then(alert("Thanks for Registeringent!"))
+            .then(alert("Thanks for Registering!"))
     }
 
     const handleInput = (e) => {
@@ -59,6 +60,12 @@ function Registerev() {
                                     value={formInput.name}
                                     onChange={handleInput}
                                     type='text' placeholder='Name'></input>
+
+<label htmlFor='num'>Contact Number</label>
+                                <input className='inparea1' autoComplete='off' name='evnum' id='evnum' required="true"
+                                    value={formInput.num}
+                                    onChange={handleInput}
+                                    type='text' placeholder='Number'></input>
 
 
                                 <label htmlFor='email'>Email</label>

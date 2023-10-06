@@ -18,6 +18,7 @@ function Registeracs() {
 
     const [formInput, updateFormInput] = useState({
         acsname: "",
+        acsnum: "",
         acsbitsemail: "",
         acsbitsid: "",
         acsparticipants: "",
@@ -29,7 +30,7 @@ function Registeracs() {
     const handleSubmit = (e) => {
         e.preventDefault();
         let data = new FormData(form);
-        fetch('https://script.google.com/macros/s/AKfycbxDtUdPhw_ii3sSNHLYhV0ZWrV64Ke7l5gTamtE0Ag9SNvZY8ffh8v_sCVuaxoZRpi4/exec', {
+        fetch('https://script.google.com/macros/s/AKfycbzWZGDNcRWnINgoC4IZuyoYBu0Wrh9Z90wOmV_YPI9Ozck1SffbqHtyL70SrJjimRYR/exec', {
             method: "POST",
             body: data
         })
@@ -63,6 +64,12 @@ function Registeracs() {
                                     value={formInput.name}
                                     onChange={handleInput}
                                     type='text' placeholder='Name'></input>
+                                
+                                <label htmlFor='num'>Contact Number</label>
+                                <input className='inparea1' autoComplete='off' name='acsnum' id='acsnum' required="true"
+                                    value={formInput.num}
+                                    onChange={handleInput}
+                                    type='text' placeholder='Number'></input>
 
 
                                 <label htmlFor='email'>Email</label>

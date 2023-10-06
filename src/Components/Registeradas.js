@@ -15,6 +15,7 @@ function Registeradas() {
 
     const [formInput, updateFormInput] = useState({
         name: "",
+        num: "",
         bitsemail: "",
         bitsid: "",
         participants: "",
@@ -26,7 +27,7 @@ function Registeradas() {
     const handleSubmit = (e) => {
         e.preventDefault();
         let data = new FormData(form);
-        fetch('https://script.google.com/macros/s/AKfycbzsy6SWJ5JqBD3FRjsqf5tqBN6JqR8i2yiS7ves2BFWfksOurEIo0OmPp7gg0_Eejnc/exec', {
+        fetch('https://script.google.com/macros/s/AKfycbyp6WZaKVGlRUYRewgTnJUyWn2vp92vEqz6MB6XF3tCL9tFfMnJWnkEBK-DKar_YopQ/exec', {
             method: "POST",
             body: data
         })
@@ -59,6 +60,12 @@ function Registeradas() {
                                     value={formInput.name}
                                     onChange={handleInput}
                                     type='text' placeholder='Name'></input>
+
+                                <label htmlFor='num'>Contact Number</label>
+                                <input className='inparea1' autoComplete='off' name='num' id='num' required="true"
+                                    value={formInput.num}
+                                    onChange={handleInput}
+                                    type='text' placeholder='Number'></input>
 
 
                                 <label htmlFor='email'>Email</label>
