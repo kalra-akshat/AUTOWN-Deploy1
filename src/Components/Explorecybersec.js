@@ -1,4 +1,4 @@
-import './Styling/Explorecybersec.css'
+import './Styling/Exploreacs.css'
 import bits_logo from './Images/bits_logo.png'
 function Explorecybersec() {
     return (
@@ -37,7 +37,7 @@ function Explorecybersec() {
                 <div >
                     <div className="contentblock" >
                         <div className='head'>CyberSecurity</div>
-                        <div className='infoblock3' id='cs.1'>
+                        <div className='infoblock1' id='cs.1'>
                             <h2>AI and ML-Based Intrusion Detection System (IDS) for Automotive CAN Bus Systems</h2>
                             <h3>Description</h3>
                             <p><span className='heading'>Introduction</span>:
@@ -67,7 +67,7 @@ function Explorecybersec() {
                             </p>
 
                         </div>
-                        <div className='infoblock4'>
+                        <div className='infoblock2'>
                             <h2>"CANcrypt" - Cryptographic Techniques for Securing the CAN Bus</h2>
                             <h3>Description</h3>
                             <p><span className='heading'>Introduction</span>:
@@ -99,7 +99,7 @@ function Explorecybersec() {
                         
 
 
-                        <div className='infoblock3'>
+                        <div className='infoblock1'>
                             <h2>Vehicle Anomaly Detection Challenge: Securing Connected Cars with Machine Learning</h2>
                             <h3>Description</h3>
                             <p><span className='heading'>Introduction</span>:
@@ -123,7 +123,7 @@ function Explorecybersec() {
                         </div>
 
 
-                        <div className='infoblock4'>
+                        <div className='infoblock2'>
                             <h2>RKE Security Challenge: Defending Against Remote Keyless Entry Attacks</h2>
                             <h3>Description</h3>
                             <p><span className='heading'>Introduction</span>:
@@ -154,7 +154,7 @@ function Explorecybersec() {
 
 
 
-                        <div className='infoblock3'>
+                        <div className='infoblock1'>
                             <h2>OTA Update Security Challenge: Safeguarding Connected Devices and Vehicles</h2>
                             <h3>Description</h3>
                             <p><span className='heading'>Introduction</span>:
@@ -188,7 +188,7 @@ function Explorecybersec() {
 
 
 
-                        <div className='infoblock4'>
+                        <div className='infoblock2'>
                             <h2>Autonomous Vehicle Security Challenge: Defending Against Advanced Threats</h2>
                             <h3>Description</h3>
                             <p><span className='heading'>Introduction</span>:

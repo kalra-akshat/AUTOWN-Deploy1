@@ -1,6 +1,6 @@
 import { useState } from "react"
 import autownlogo from './Images/autownlogo.png'
-import './Styling/Registercs.css';
+import './Styling/Registeracs.css';
 import formicon from './Images/formicon.png'
 function Registercs() {
 

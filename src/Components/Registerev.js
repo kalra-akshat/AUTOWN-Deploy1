@@ -1,7 +1,7 @@
 import { useState } from "react"
 import autownlogo from './Images/autownlogo.png'
 import formicon from './Images/formicon.png'
-import './Styling/Registerev.css';
+import './Styling/Registeracs.css';
 function Registerev() {
 
     const projects = [

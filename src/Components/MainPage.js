@@ -4,6 +4,7 @@ import Overview from "./Overview";
 import ContactUs from "./Contactus";
 import Footer from "./Footer";
 import './Styling/Mainpage.css';
+import Speakers from "./Speakers";
 
 
 function MainPage() {
@@ -12,6 +13,7 @@ function MainPage() {
             <Navbar />
             <Overview /> 
             <Eventinfo />
+            {/* <Speakers /> */}
             <ContactUs />
             {/* <Footer/> */}
         </div>

@@ -1,5 +1,5 @@
 
-import './Styling/ExploreADAS.css'
+import './Styling/Exploreacs.css'
 import bits_logo from './Images/bits_logo.png'
 function ExploreADAS() {
     return (

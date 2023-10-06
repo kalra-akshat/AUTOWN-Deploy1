@@ -32,7 +32,7 @@ function Eventinfo() {
                             <p><span style={{ color: "#08bd8f" }}>
                                 <a className='up' style={{ color: "#08bd8f" }} href='mailto:vennishmuthu@wilp.bits-pilani.ac.in' ><FaEnvelope/>
                                     </a><br></br></span><a className='hide' href='mailto:vennishmuthu@wilp.bits-pilani.ac.in'>vennishmuthu@wilp.bits-pilani.ac.in</a><br></br><a className='hide'  href='mailto:sanjai.k@pilani.bits-pilani.ac.in'>sanjai.k@pilani.bits-pilani.ac.in </a></p>
-                            <p className='hide'><span style={{ color: "#08bd8f" }}><FaPhoneVolume/> </span> 8056320310 || 8657592434</p>
+                            <p ><span style={{ color: "#08bd8f" }}><FaPhoneVolume/> </span> 8056320310 || 8657592434</p>
                             <button onClick={event =>  window.location.href='/exploreacs'}>Explore Projects</button>
                         </div>
                     </div>
@@ -49,7 +49,7 @@ function Eventinfo() {
                             <p ><span style={{ color: "#08bd8f" }}><BsPersonCircle/></span>  Mr. Parjanya</p>
                             <p><span style={{ color: "#08bd8f" }}>
                             <a className='up' style={{ color: "#08bd8f"}} href='mailto:parjanya.yaragani@pilani.bits-pilani.ac.in' ><FaEnvelope/></a><br></br></span><a className='hide' href='mailto:parjanya.yaragani@pilani.bits-pilani.ac.in'>parjanya.yaragani@pilani.bits-pilani.ac.in</a></p>
-                            <p className='hide'><span style={{ color: "#08bd8f" }}><FaPhoneVolume/></span> 6354835188</p>
+                            <p ><span style={{ color: "#08bd8f" }}><FaPhoneVolume/></span> 6354835188</p>
                             <button onClick={event =>  window.location.href='/exploreadas'}>Explore Projects</button>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ function Eventinfo() {
                             <p><span style={{ color: "#08bd8f" }}>
                                 <a style={{ color: "#08bd8f" }} href='mailto:indumathi.m@pilani.bits-pilani.ac.in' ><FaEnvelope/></a>
                                 <br></br></span> <a className='hide' href='mailto:indumathi.m@pilani.bits-pilani.ac.in'>indumathi.m@pilani.bits-pilani.ac.in</a></p>
-                            <p className='hide'><span style={{ color: "#08bd8f" }}><FaPhoneVolume/></span> 7904316109</p>
+                            <p ><span style={{ color: "#08bd8f" }}><FaPhoneVolume/></span> 7904316109</p>
                             <button onClick={event =>  window.location.href='/explorecybersec'}>Explore Projects</button>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ function Eventinfo() {
                         <p className='card-head'><span style={{ color: "#08bd8f" }}>Electric Vehicle</span></p>
                             <p ><span style={{ color: "#08bd8f" }}><BsPersonCircle/></span>  Mr. Vykunt</p>
                             <p><span style={{ color: "#08bd8f" }}><a style={{ color: "#08bd8f" }} href='mailto:vykunta.rao@wilp.bits-pilani.ac.in'><FaEnvelope/></a><br></br></span><a className='hide' href='mailto:vykunta.rao@wilp.bits-pilani.ac.in'>vykunta.rao@wilp.bits-pilani.ac.in</a></p>
-                            <p className='hide'><span style={{ color: "#08bd8f" }}><FaPhoneVolume/></span>7416196828</p>
+                            <p ><span style={{ color: "#08bd8f" }}><FaPhoneVolume/></span>7416196828</p>
                             <button onClick={event =>  window.location.href='/exploreev'}>Explore Projects</button>
                         </div>
                     </div>

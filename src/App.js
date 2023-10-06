@@ -1,7 +1,7 @@
 import './App.css';
 import {
   BrowserRouter as Router,Routes,
-  Route, Redirect,
+  Route
 } from "react-router-dom";
 import MainPage from './Components/MainPage';
 import ExploreADAS from './Components/ExploreADAS';
@@ -12,6 +12,7 @@ import Registeradas from './Components/Registeradas';
 import Registeracs from './Components/Registeracs';
 import Registercs from './Components/Registercs';
 import Registerev from './Components/Registerev';
+import PSstudents from './Components/PSstudents';
 function App() {
   return (
     <div className='app'>
@@ -26,6 +27,7 @@ function App() {
           <Route exact path="/regacs" element={<Registeracs/>} />
           <Route exact path="/regev" element={<Registerev/>} />
           <Route exact path="/regcs" element={<Registercs/>} />
+          {/* <Route exact path="/psstudents" element={<PSstudents/>}/> */}
         </Routes>
       </Router>
     </div>

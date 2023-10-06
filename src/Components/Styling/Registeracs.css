@@ -120,3 +120,384 @@
         margin-top: 15%;
     }
 }
+
+
+
+
+
+
+.Regadas {
+    width: 80%;
+    margin-left: 10%;
+    border: 4px solid #08bd8f ;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.Regadas .autownlogo {
+    width: 65%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 25px;
+}
+
+.mainbg{
+    background-color: black;  
+    padding: 1%;
+}
+.Regadas a{
+    width: 20%;
+}
+.Regadas .head{
+    padding-top: 2.5%;
+    padding-left: 23%;
+}
+.Regadas .heading{
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+    padding-top: 2%;
+}
+
+.Regadas .title {
+    background: darkblue;
+    color: white;
+    font-size: 200%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 30px;
+    display: flex;
+    border: 2px solid #08bd8f;
+}
+
+.Regadas .regform {
+    margin-left: 5%;
+}
+
+
+.Regadas .form {
+    display: flex;
+    width: 80%;
+    /* margin-left: 35%; */
+    margin-top: 5%;
+}
+.Regadas .subform{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.Regadas img{
+    width: 80%;
+    margin-left: 40%;
+}
+.Regadas .form .inparea1{
+    margin-bottom: 4%;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+    height: 40px;
+}
+
+.Regadas label {
+    color: black;
+}
+
+.Regadas .project {
+    width: 100%;
+}
+
+.Regadas .project .projheading {
+    margin-bottom: 2%;
+    /* margin-left: 35%; */
+    text-decoration: underline;
+    color: black;
+
+}
+.Regadas .subarea:hover {
+    background-color: cornflowerblue;
+    transition: 0.5s;
+}
+.Regadas .subarea {
+    margin-bottom: 3%;
+    border-radius: 20px;
+    font-size: larger;
+}
+
+
+@media screen and (max-width: 500px) {
+    .Regadas .heading{
+        font-size: medium;
+    }
+    .Regadas .form img {
+        display: none;
+    }
+    .Regadas .head {
+        font-size: large;
+        padding-left: 12%;
+        margin-top: 1.5%;
+    }
+    .Regadas .regform {
+        font-size: small;
+        width: 90%;
+    }
+    .Regadas .title img{
+        width: 100%;
+        margin-left: 10%;
+        margin-top: 15%;
+    }
+}
+
+
+.Regcs {
+    width: 80%;
+    margin-left: 10%;
+    border: 4px solid #08bd8f ;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.Regcs .autownlogo {
+    width: 65%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 25px;
+}
+
+.mainbg{
+    background-color: black;  
+    padding: 1%;
+}
+.Regcs a{
+    width: 20%;
+}
+.Regcs .head{
+    padding-top: 2.5%;
+    padding-left: 23%;
+}
+.Regcs .heading{
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+    padding-top: 2%;
+}
+
+.Regcs .title {
+    background: darkblue;
+    color: white;
+    font-size: 200%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 30px;
+    display: flex;
+    border: 2px solid #08bd8f;
+}
+
+.Regcs .regform {
+    margin-left: 5%;
+}
+
+
+.Regcs .form {
+    display: flex;
+    width: 80%;
+    /* margin-left: 35%; */
+    margin-top: 5%;
+}
+.Regcs .subform{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.Regcs img{
+    width: 80%;
+    margin-left: 40%;
+}
+.Regcs .form .inparea1{
+    margin-bottom: 4%;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+    height: 40px;
+}
+
+.Regcs label {
+    color: black;
+}
+
+.Regcs .project {
+    width: 100%;
+}
+
+.Regcs .project .projheading {
+    margin-bottom: 2%;
+    /* margin-left: 35%; */
+    text-decoration: underline;
+    color: black;
+
+}
+.Regcs .subarea:hover {
+    background-color: cornflowerblue;
+    transition: 0.5s;
+}
+.Regcs .subarea {
+    margin-bottom: 3%;
+    border-radius: 20px;
+    font-size: larger;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .Regcs .heading{
+        font-size: medium;
+    }
+    .Regcs .form img {
+        display: none;
+    }
+    .Regcs .head {
+        font-size: large;
+        padding-left: 12%;
+        margin-top: 1.5%;
+    }
+    .Regcs .regform {
+        font-size: small;
+        width: 90%;
+    }
+    .Regcs .title img{
+        width: 100%;
+        margin-left: 10%;
+        margin-top: 15%;
+    }
+}
+
+
+.Regev {
+    width: 80%;
+    margin-left: 10%;
+    border: 4px solid #08bd8f ;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.Regev .autownlogo {
+    width: 65%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 25px;
+}
+
+.mainbg{
+    background-color: black;  
+    padding: 1%;
+}
+.Regev a{
+    width: 20%;
+}
+.Regev .head{
+    padding-top: 2.5%;
+    padding-left: 23%;
+}
+.Regev .heading{
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+    padding-top: 2%;
+}
+
+.Regev .title {
+    background: darkblue;
+    color: white;
+    font-size: 200%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 30px;
+    display: flex;
+    border: 2px solid #08bd8f;
+}
+
+.Regev .regform {
+    margin-left: 5%;
+}
+
+.Regev .form {
+    display: flex;
+    width: 80%;
+    /* margin-left: 35%; */
+    margin-top: 5%;
+}
+.Regev .subform{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.Regev img{
+    width: 80%;
+    margin-left: 40%;
+}
+.Regev .form .inparea1{
+    margin-bottom: 4%;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+    height: 40px;
+}
+
+.Regev label {
+    color: black;
+}
+
+.Regev .project {
+    width: 100%;
+}
+
+.Regev .project .projheading {
+    margin-bottom: 2%;
+    /* margin-left: 35%; */
+    text-decoration: underline;
+    color: black;
+
+}
+.Regev .subarea:hover {
+    background-color: cornflowerblue;
+    transition: 0.5s;
+}
+.Regev .subarea {
+    margin-bottom: 3%;
+    border-radius: 20px;
+    font-size: larger;
+}
+
+
+@media screen and (max-width: 500px) {
+    .Regev .heading{
+        font-size: medium;
+    }
+    .Regev .form img {
+        display: none;
+    }
+    .Regev .head {
+        font-size: large;
+        padding-left: 12%;
+        margin-top: 1.5%;
+    }
+    .Regev .regform {
+        font-size: small;
+        width: 90%;
+    }
+    .Regev .title img{
+        width: 100%;
+        margin-left: 10%;
+        margin-top: 15%;
+    }
+}
+
+
+
+
+

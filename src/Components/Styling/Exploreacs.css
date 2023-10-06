@@ -1,6 +1,6 @@
 
 
-.App4 {
+.App, .App2, .App3, .App4{
     background-image: url('../Images/bg3.jpg');
     /* background-repeat: repeat-y;
     background-size: 100%;
@@ -12,7 +12,7 @@
 }
 
 
-.App4 .infoblock1{
+.App .infoblock1, .App2 .infoblock1, .App3 .infoblock1, .App4 .infoblock1{
     background-color: #191919;
     width: 50%;
     border: 2px double whitesmoke;
@@ -23,7 +23,7 @@
     color: whitesmoke;
 }
 
-.App4 .infoblock2{
+.App .infoblock2, .App2 .infoblock2, .App3 .infoblock2, .App4 .infoblock2{
     background-color: #191919;
     width: 50%;
     border: 2px solid whitesmoke;
@@ -35,32 +35,32 @@
 
 }
 
-.App4 .contentblock{
+.App .contentblock, .App2 .contentblock, .App3 .contentblock, .App4 .contentblock{
     display: flex;
     flex-direction: column;
 }
 
-.App4 h2{
+.App h2, .App2 h2, .App3 h2, .App4 h2{
     text-align: center;
     font-size: larger;
     color: #08bd8f;
     font-size: 25px;
 }
 
-.App4 h3{
+.App h3, .App2 h3, .App3 h3, .App4 h3{
     text-decoration: underline;
     font-weight: bold;
     color: #08bd8f;
     font-size: 25px;
 
 }
-.App4 .heading{
+.App .heading, .App2 .heading, .App3 .heading, .App4 .heading{
     color: #08bd8f;
     font-size: 20px;
 
 }
 
-.App4 .register{
+.App .register, .App2 .register, .App3 .register, .App4 .register{
     text-align: center;
     margin-top: 10%;
     margin-left: 40%;
@@ -72,23 +72,23 @@
     background-color: #191919;
 
 }
-.App4 .register:hover{
+.App .register:hover, .App2 .register:hover, .App3 .register:hover, .App4 .register:hover{
     scale: 1.1;
 }
 
-.App4 .register a{
+.App .register a, .App2 .register a, .App3 .register a, .App4 .register a{
     color: whitesmoke;
 
 }
 
-.App4 .head{
+.App .head, .App2 .head, .App3 .head, .App4 .head{
     text-align: center;
     padding-top: 3%;
     font-size: 40px;
     color: whitesmoke;
 }
 
-.App4 nav {
+.App nav, .App2 nav, .App3 nav, .App4 nav {
 
     width: 100%;
     height: 15%;
@@ -101,7 +101,7 @@
 
 }
 
-.App4 ul {
+.App ul , .App2 ul , .App3 ul , .App4 ul {
     border: 2px solid whitesmoke;
     width: 12%;
     margin-left: 1%;
@@ -117,17 +117,17 @@
     z-index: 1
 }
 
-.App4 ul li a {
+.App ul li a, .App2 ul li a, .App3 ul li a, .App4  ul li a {
     color: whitesmoke;
     font-size: 18px;
     text-decoration: none;
     
 }
-.App4 ul li a:hover{
+.App ul li a:hover, .App2 ul li a:hover, .App3 ul li a:hover, .App4 ul li a:hover{
     text-decoration: underline;
     font-size: 20px;
 }
-.App4 ul li {
+.App  ul li, .App2  ul li, .App3  ul li, .App4  ul li {
     color: #191919;
     font-size: 18px;
     list-style-type: none;
@@ -138,16 +138,16 @@
 
 
 @media screen and (max-width: 500px) {
-    .App4 .infoblock1  {
+    .App .infoblock1, .App2 .infoblock1, .App3 .infoblock1, .App4 .infoblock1 {
         width: 100%;
         margin-left: 0%;
         scale: 0.8;
     
     }
-    .App4 .contentblock{
+    .App .contentblock, .App2 .contentblock, .App3 .contentblock, .App4 .contentblock{
         border: 2px solid #08bd8f;
     }
-    .App4 .infoblock2 {
+    .App .infoblock2, .App2 .infoblock2, .App3 .infoblock2, .App4 .infoblock2 {
         width: 100%;
         margin-left: 0%;
         scale: 0.8;
@@ -155,10 +155,10 @@
         padding-bottom: 0% ;
     }
     
-    .App4 .head {
+    .App .head, .App2 .head, .App3 .head, .App4 .head {
         font-size: 20px;
     }
-    .App4  ul {
+    .App ul, .App2 ul, .App3 ul, .App4  ul {
         scale: 0.65;
         width: 100%;
         align-items: center;
@@ -168,17 +168,17 @@
         margin-top: 5%;
         border: 0px ;
     }
-    .App4 .register{
+    .App .register, .App2 .register, .App3 .register, .App4 .register{
         margin-left: 30%;
         border: 2px solid whitesmoke;
         width: 40%;
         font-size: 20px;
         margin-top: 5%;
     }
-    .App4 nav{
+    .App nav, .App2 nav, .App3 nav, .App4 nav{
         position: absolute;
     }
-    .App4{
+    .App, .App2, .App3, .App4 {
         background-size: 120%;
         background-repeat: no-repeat;
         background-color: #060807;
