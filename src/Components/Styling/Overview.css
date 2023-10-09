@@ -5,7 +5,7 @@
 }
 
  .overview {
-    height: 100vh;
+    height: 115vh;
     width: 100%;
     /* margin-top: 2%; */
 }
@@ -19,8 +19,8 @@
     color:  white; 
 }
 .overview-text p{
-    width: 75%;
-    margin-left: 20%;
+    width: 85%;
+    margin-left: 10%;
     margin-top: 5%;
     color:  #08bd8f;
     font-size: 25px;
@@ -28,11 +28,17 @@
   text-justify: inter-word;
     
 }
+.overview-text{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
 
 
 .main {
     display: flex;
     align-items: center;
+
 }
 
 .binoc{
@@ -41,8 +47,26 @@
     margin-left: 9%;
 } 
 
+.cashprize{
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    width: 300px;
+    margin-top: 2%;
+    align-items: center;
+    border: 2px #08bd8f solid;
+    padding : 10px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px 2px  #08bd8f;
+}
+.cashprize img{
+    height: 65%;
+}
 
-
+.cash{
+    color: aliceblue;
+    font-size: 35px;
+}
 
 @media screen and (max-width: 700px) {
     .overview{
