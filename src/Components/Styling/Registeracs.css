@@ -98,7 +98,7 @@
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     .Regacs .heading{
         font-size: medium;
     }
@@ -107,7 +107,7 @@
     }
     .Regacs .head {
         font-size: large;
-        padding-left: 12%;
+        padding-left: 16%;
         margin-top: 1.5%;
     }
     .Regacs .regform {
@@ -494,6 +494,9 @@
         width: 100%;
         margin-left: 10%;
         margin-top: 15%;
+    }
+    .Regacs .form {
+        width: 100%;
     }
 }
 
