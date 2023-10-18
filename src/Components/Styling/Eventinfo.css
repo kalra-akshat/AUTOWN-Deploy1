@@ -185,5 +185,9 @@
     .back button{
         margin-bottom: 5%;
     }
+    .Event{
+        height: 110vh;
+        /* width: 100%;     */
+    }
 
 }
