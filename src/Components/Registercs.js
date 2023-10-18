@@ -28,7 +28,7 @@ function Registercs() {
     const handleSubmit = (e) => {
         e.preventDefault();
         let data = new FormData(form);
-        fetch('https://script.google.com/macros/s/AKfycbxXQht9_z2gP1MvkKfjeTmpSjBJnmP_cPWnxa7n9qMU_jA91rysKqOt7tjyidXyX0j_/exec', {
+        fetch('https://script.google.com/macros/s/AKfycbzZnjY__hcIb3mTFVWXWwB6Glm_DzyiyQfD96dSRBugplArjsZPdIYKMxhDeQgtE1Gh/exec', {
             method: "POST",
             body: data
         })
