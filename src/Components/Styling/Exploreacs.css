@@ -137,7 +137,7 @@
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     .App .infoblock1, .App2 .infoblock1, .App3 .infoblock1, .App4 .infoblock1 {
         width: 100%;
         margin-left: 0%;
