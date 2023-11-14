@@ -44,15 +44,25 @@
     font-size: 16px;
     
 }
+.collaborator{
+    display: flex;
+    align-items: center;
+}
+.colabhead{
+    margin-top: 20px;
+    font-size: 30px;
+}
 
 @media screen and (max-width: 700px){
     .speakers{
         flex-direction: column;
-        scale: 0.95;
+        scale: 0.9;
+        display: flex;
+        align-content: center;
     }
     .speakerbox{
-        width: 80%;
-        margin-left: 10%;
+        width: 100%;
+    
         height: auto;
 
     }
@@ -62,5 +72,12 @@
     }
     .speaker-image{
         scale: 0.75;
+    }
+    .speaker-designation{
+        padding-bottom: 10px;
+    }
+    .colabhead{
+        margin-top: 20px;
+        font-size: 20px;
     }
 }

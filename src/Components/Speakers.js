@@ -3,6 +3,7 @@ import AshokjhaImage from './Images/Ashokjha.jpg';
 import varaprasad from './Images/varaprasad.jpg';
 import cybersec from './Images/cybersec.jpg';
 import connected from './Images/connected.jpg';
+import collab from './Images/Collaborator_ceo.jpg'
 
 function Speakers(){
     
@@ -29,7 +30,9 @@ function Speakers(){
 
     return (
         <>  
+
             <div className='speakerheading' id='speakers'> Speakers </div>
+            
             <div className="speakers">
                 {speakerdata.map( speaker =>
                 <div className="speakerbox">
@@ -46,7 +49,21 @@ function Speakers(){
                 )}
                 
             </div>
+            <div className='collaborator'>
+            <div className='speakerbox'>
+            <div className='colabhead'> Collaborator</div>
+                <div className="speaker-image">
+                    <img src={collab}></img>
+                    </div>
+                    <div className="speaker-name">
+                        Mr. Rajesh Kumar A.
+                    </div>
+                    <div className="speaker-designation">
+                    CEO @ AIC T-Hub
 
+                    </div>
+            </div>
+            </div>
         
         </>
     )
