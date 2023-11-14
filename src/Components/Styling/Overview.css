@@ -5,7 +5,7 @@
 }
 
  .overview {
-    height: 125vh;
+    height: 110vh;
     width: 100%;
     /* margin-top: 2%; */
 }
@@ -19,11 +19,11 @@
     color:  white; 
 }
 .overview-text p{
-    width: 85%;
+    width: 100%;
     margin-left: 10%;
     margin-top: 5%;
     color:  #08bd8f;
-    font-size: 25px;
+    font-size: 20px;
     text-align: justify;
   text-justify: inter-word;
     
@@ -32,26 +32,46 @@
     display: flex;
     flex-direction: column ;
     align-items: center;
+    width: 60%;
 }
 
 
 .main {
     display: flex;
     align-items: center;
+    justify-content: center;
+
+}
+.collab{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
-.binoc{
-    width: 30%;
-    height: 25%;
-    margin-left: 9%;
+.collabimg{
+    height: 25vh;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #08bd8f;
+    padding: 10px;
 } 
+.collabimg2{
+    height: 25vh;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #08bd8f;
+} 
+
+.collab p{
+    font-size: 30px;
+    color: white;
+}
 
 .cashprize{
     display: flex;
     justify-content: space-around;
-    height: 150px;
-    width: 300px;
+    height: 100px;
+    width: 250px;
     margin-top: 2%;
     align-items: center;
     border: 2px #08bd8f solid;
@@ -65,7 +85,7 @@
 
 .cash{
     color: aliceblue;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 @media screen and (max-width: 700px) {
@@ -76,7 +96,8 @@
 
     .overview h2 {
         font-size: 30px;
-        padding-top: 5%;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
     }
 
     .overview-text p{
@@ -86,10 +107,8 @@
         margin-top: 8%;
 
     }
-
-    .binoc {
-        margin-left: 0%;
-        max-width: 150px;
+    .overview-text {
+        width: 100%;
     }
 
     .main {
@@ -99,6 +118,12 @@
     }
 
     .cashprize{
+        scale: 0.75;
+    }
+    .collabimg{
+        scale: 0.75;
+    } 
+    .collab p{
         scale: 0.75;
     }
     

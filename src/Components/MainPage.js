@@ -13,9 +13,9 @@ function MainPage() {
             <Navbar />
             <Overview /> 
             <Eventinfo />
-            {/* <Speakers /> */}
+            <Speakers />
             <ContactUs />
-            {/* <Footer/> */}
+            <Footer/>
         </div>
     );
 }

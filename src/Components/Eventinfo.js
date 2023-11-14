@@ -14,7 +14,7 @@ function Eventinfo() {
         <div className='Event'>
             <div className="Events" id='eventinfo'>
                 <div className="title">
-                    Events
+                    Info
                 </div>
             </div>
 

@@ -18,7 +18,7 @@ function Studentcard({ data }) {
     return (
         <>
 
-            <div className="card-box">
+            <div className="scard-box">
                 <div className="card-content" >
                     <div className={cardHovered ? 'card-image-half' : ' card-image-full'}  onMouseEnter={Hovered} onMouseLeave={Hovered} onClick={Cliked}
                         style={{
@@ -35,13 +35,16 @@ function Studentcard({ data }) {
 
             <div  className={cardClicked ? "student-detail-visible" : "student-detail-not-visible"}>
                 <div onClick={Cliked} className="cross" >X</div>
+                <div className="student-details">                
+                
+                <div className="name">{data.name}</div>
                 <div className="selected-image">
                     <img src={data.url}></img>                    
                 </div>
-                <div className="student-details">
-                    <div className="name">{data.name}</div>
-                    <div className="details">{data.details}</div>
-                    <button>Get Resume</button>
+               
+                    
+                    <div className="details"><p className="skillhead">Skills:</p> {data.details}</div>
+                    <button><a target="_blank" href={data.resume} >Get Resume</a></button>
                 </div>
             </div>
 

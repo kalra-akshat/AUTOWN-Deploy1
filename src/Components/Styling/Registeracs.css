@@ -474,7 +474,7 @@
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     .Regev .heading{
         font-size: medium;
     }

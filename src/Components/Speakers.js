@@ -1,32 +1,40 @@
 import './Styling/Speakers.css'
+import AshokjhaImage from './Images/Ashokjha.jpg';
+import varaprasad from './Images/varaprasad.jpg';
+import cybersec from './Images/cybersec.jpg';
+import connected from './Images/connected.jpg';
 
 function Speakers(){
     
     const speakerdata =[{
-        name:'speaker1',
-        designation:'xyz',
-        image:''
+        name:'Mr. Ashok Kumar Jha',
+        designation:'Engineering Director @ ZF Group',
+        image: AshokjhaImage
     },
     {
-        name:'speaker1',
-        designation:'xyz',
-        image:''
+        name:'Mr. Varaprasad Nallangi',
+        designation:'Director Technical ADAS @ Bosch Global Software technologies',
+        image:  varaprasad
     },
     {
-        name:'speaker1',
-        designation:'xyz',
-        image:''
+        name:'Mr. Aripaka Mutyalarao',
+        designation:'Security Architect @ Bosch Global Software Technologies',
+        image: cybersec
+    },{
+        name:'Mr. Kalasagar Gembali',
+        designation:'Technology Consultant @ Hewlett-Packard',
+        image: connected
     }]
 
 
     return (
         <>  
-            <div className='speakerheading'> Speakers </div>
+            <div className='speakerheading' id='speakers'> Speakers </div>
             <div className="speakers">
                 {speakerdata.map( speaker =>
                 <div className="speakerbox">
                     <div className="speaker-image">
-                        {speaker.name}
+                    <img src={speaker.image}></img>
                     </div>
                     <div className="speaker-name">
                         {speaker.name}

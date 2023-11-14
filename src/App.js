@@ -13,6 +13,8 @@ import Registeracs from './Components/Registeracs';
 import Registercs from './Components/Registercs';
 import Registerev from './Components/Registerev';
 import PSstudents from './Components/PSstudents';
+import Event from './Components/Event';
+import { Events } from 'react-scroll';
 function App() {
   return (
     <div className='app'>
@@ -27,7 +29,8 @@ function App() {
           <Route exact path="/regacs" element={<Registeracs/>} />
           <Route exact path="/regev" element={<Registerev/>} />
           <Route exact path="/regcs" element={<Registercs/>} />
-          {/* <Route exact path="/psstudents" element={<PSstudents/>}/> */}
+          <Route exact path="/psstudents" element={<PSstudents/>}/>
+          <Route exact path="/events" element={<Event/>}/>
         </Routes>
       </Router>
     </div>

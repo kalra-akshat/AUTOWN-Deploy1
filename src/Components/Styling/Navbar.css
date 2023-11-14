@@ -28,7 +28,11 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 50%;
+    width: 75%;
+}
+
+.mainapp .navStyle a{
+    text-decoration: none;
 }
 
 .mainapp nav{
@@ -84,11 +88,12 @@
     color: white;
 }
 .mainapp .content h2{
-    margin-top: 20%;
+    margin-top: 25%;
     margin-bottom: 0%;
     color: #fcfc;
     letter-spacing: 2px;
     font-size: 30px;
+    line-height: 3.5rem;
    
 }
 .mainapp .content h3{
@@ -153,9 +158,10 @@
 
   @media screen and (max-width: 700px) {
     .mainapp .navStyle {
-        justify-content: space-around;
+        justify-content: space-evenly;
         padding-left: 0%;
-        width: 100%;
+        width: 90%;
+        flex-wrap: wrap;
     }
     .mainapp .mainlayout {
 
@@ -163,7 +169,6 @@
         background-size: 150% ;
         background-repeat: no-repeat;
         background-position: center;
-        
     }
     .mainapp nav {
         justify-content: space-between;
@@ -175,10 +180,15 @@
         font-size: 16px;
 
     }
+    .mainapp nav ul li{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
 
     .mainapp .content {
         left: -10%;
-        top: 30%;
+        top: 35%;
         scale: 0.6;
         width: 80%;
     }
@@ -195,7 +205,9 @@
         height: auto;
         margin-left: 3%;
     }
-    
+    .mainapp .content h2{
+        line-height: 2.2rem;
+    }
 }
 
 

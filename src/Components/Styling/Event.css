@@ -1,0 +1,100 @@
+.event{
+    background: black;
+    padding: 2%;
+}
+.e-home{
+    font-size: 30px;
+}
+.ehead{
+    width: 95%;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.eheading{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    font-size: 50px;
+    padding:1%;
+    color: whitesmoke;
+    background-color: #191919;
+    margin-bottom: 5%;
+    border-radius: 20px;
+    border: 2px solid #08bd8f;
+    /* box-shadow: 0px 0px 50px #08bd8f; */
+}
+.date{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    color: whitesmoke;
+    background-color: #191919;
+    height: 3rem;
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+    padding: 0.75rem;
+
+}
+.body2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.body2 p{
+    padding-top: 2%;    
+    font-size: 25px;
+}
+
+.cricreg img{
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 20%;
+}
+.cricreg{
+    width: 30%;
+    margin-left: 5%;
+}
+.cricpara{
+    color: whitesmoke;
+}
+.ehome{
+    display: flex;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .ehead{
+        font-size: 30px;
+        width: 90%;
+        padding-right: 4%;
+      }
+      .e-home{
+        font-size: 20px;
+      }
+      .date{
+        font-size: 1rem;
+        text-align: center;
+    border-radius: 20px;
+    width: 60%;
+    margin-left: 20%;
+    height: 2rem;
+    padding: 0%;
+    padding-top: 0.5rem;
+    background-color: #191919;
+    outline: none;
+    }
+    .body2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .body2 p{
+        font-size: 13px;    
+    }
+      
+    
+}

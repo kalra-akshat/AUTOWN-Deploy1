@@ -1,6 +1,6 @@
 import './Styling/Exploreacs.css'
 import bits_logo from './Images/bits_logo.png'
-import bg2 from './Images/bg2.jpg'
+
 function Exploreev() {
     return (
         <div className="App3">

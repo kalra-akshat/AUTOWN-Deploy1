@@ -3,7 +3,13 @@
     text-align: center;
     padding-top: 1.5rem;
     color: whitesmoke;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
+    border-left: 5px solid #08bd8f ;
+    border-right: 5px solid #08bd8f ;
+    background-color: #191919;
+    padding-bottom: 1.5rem;
+
+    
 }
 .pspage{
     width: 100%;
@@ -15,9 +21,27 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+.home{
+    position: absolute;
+    left: 2%;
+    font-size: 2rem;
+    top: 2rem;
+}
 
-@media screen and (max-width: 500px) {
+
+@media screen and (max-width: 700px) {
     .card-list{
         flex-direction: column;
+        align-items: center;
+    }
+    
+    .ps-heading, .home{
+        font-size: 1.5rem;
+    }
+    .ps-heading{
+        padding-top: 8%;
+    }
+    .home{
+        top: 1.5rem;
     }
 }
