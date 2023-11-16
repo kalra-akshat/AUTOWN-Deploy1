@@ -14,7 +14,7 @@ function ContactUs() {
     const handleSubmit =(e) =>{
             e.preventDefault();
             let data = new FormData(form);
-            fetch('https://script.google.com/macros/s/AKfycbz7Jf8_IT6UwDbxMTStIqgTIDpLlVEzVYo4fVbOer1Q8o5GzhAuvjR7QfNeAQw7mPi5/exec',{
+            fetch('https://script.google.com/macros/s/AKfycbyFOL0gVGBetGq-XbAjJ6NM1bvw5eWn8nEVGox2z7CZmMjwecUJr3Jy9bN_C-xWj1aM/exec',{
                 method:"POST",
                 body: data
             })
@@ -54,7 +54,7 @@ function ContactUs() {
                             onChange={handleInput}
                         type='email' placeholder='Email' ></input>
                         <label htmlFor='email'>Contact Number</label>
-                        <input className='inparea1' autoComplete='off' name='pnumber' id='pnumber' required='true'
+                        <input className='inparea1' autoComplete='off' name='cnumber' id='cnumber' required='true'
                             value={userInput.pnumber}
                             onChange={handleInput}
                         type='number' placeholder='contact number' ></input>
