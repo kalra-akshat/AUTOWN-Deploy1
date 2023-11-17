@@ -95,6 +95,9 @@
     .body2 p{
         font-size: 13px;    
     }
+    .event{
+        min-height: 100vh;
+    }
       
     
 }
