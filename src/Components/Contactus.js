@@ -1,6 +1,8 @@
 import './Styling/Contactus.css';
 import { useState } from 'react';
 import bits_logo from './Images/bits_logo.png'
+import { FaEnvelope } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
 function ContactUs() {
     
 
@@ -65,7 +67,10 @@ function ContactUs() {
                         type='text' placeholder='Message' ></input>
                         <input className='subarea' type="submit" value="Submit"></input>
                     </form>
+                    <div className='contactside'>
+                    <div className='projcoord'><span style={{fontSize:'24px',}}>Program Faculty Co-ordinator :</span><br></br><br></br><span style={{fontSize:'20px',}}> Rajiv Ranjan Gupta</span><br></br>Assistant Professor<br></br>BITS Pilani<br></br>Work Integrated Learning Program<br></br><a href='mailto:rajivranjan.gupta@pilani.bits-pilani.ac.in'><FaEnvelope/> rajivranjan.gupta@pilani.bits-pilani.ac.in</a><br></br></div>
                     <img className='sideimg' src={bits_logo}></img>
+                    </div>
                 </div>
 
             </div>
