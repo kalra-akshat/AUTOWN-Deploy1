@@ -23,8 +23,8 @@ function Eventinfo() {
                     <div className="card">
                         <div className="front">
                             <div className='icon'><FaCarOn /></div>
-                            <h4>C</h4>
-                            <h5>CONNECTED</h5>
+                            <h4>M</h4>
+                            <h5>MATERIAL SCIENCE</h5>
                         </div>
                         <div className='back'>
                         <p className='card-head' style={{ width: "100%"}}><span style={{ color: "#08bd8f"}}>Automotive Control Systems & Diagnostics</span></p>
@@ -41,8 +41,8 @@ function Eventinfo() {
                     <div className="card">
                         <div className="front">
                             <div className='icon'><FaMicrochip /></div>
-                            <h4>A</h4>
-                            <h5>AUTONOMOUS</h5>
+                            <h4>AD</h4>
+                            <h5>ADAS</h5>
                         </div>
                         <div className='back'>
                         <p className='card-head'><span style={{ color: "#08bd8f"}}>Advanced Driver Assistance System</span></p>
@@ -54,7 +54,7 @@ function Eventinfo() {
                         </div>
                     </div>
                 </div>
-                <div className="card-box">
+                {/* <div className="card-box">
                     <div className="card">
                         <div className="front">
                             <div className='icon'><FaShieldAlt /></div>
@@ -71,13 +71,13 @@ function Eventinfo() {
                             <button onClick={event =>  window.location.href='/explorecybersec'}>Explore Projects</button>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div className="card-box">
                     <div className="card">
                         <div className="front">
                             <div className='icon'><FaChargingStation /></div>
                             <h4>E</h4>
-                            <h5>ELECTRIFIED</h5>
+                            <h5>ELECTRIC VEHICLE</h5>
                         </div>
                         <div className='back'>
                         <p className='card-head'><span style={{ color: "#08bd8f" }}>Electric Vehicle</span></p>

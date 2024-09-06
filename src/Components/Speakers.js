@@ -3,29 +3,34 @@ import AshokjhaImage from './Images/Ashokjha.jpg';
 import varaprasad from './Images/varaprasad.jpg';
 import cybersec from './Images/cybersec.jpg';
 import connected from './Images/connected.jpg';
-import collab from './Images/Collaborator_ceo.jpg'
+import collab from './Images/Collaborator_ceo.jpg';
+import Senthilkumaran from './Images/SenthilkumaranVaratharajan.png';
+import Pinaki from './Images/PinakiBiswas.png';
 
 function Speakers(){
     
     const speakerdata =[{
-        name:'Mr. Ashok Kumar Jha',
-        designation:'Engineering Director @ ZF Group',
-        image: AshokjhaImage
+        name:'Mr. Senthilkumaran Varatharajan',
+        designation:`Associate Chief Engineer : Head - Materials Technology, 
+Mahindra Research Valley, Mahindra & Mahindra Ltd. Chennai`,
+        image: Senthilkumaran
     },
     {
-        name:'Mr. Varaprasad Nallangi',
-        designation:'Director Technical ADAS @ Bosch Global Software technologies',
-        image:  varaprasad
+        name:'Mr. Pinaki Biswas ',
+        designation:`Head Product Application Research Group at Tata Steel
+`,
+        image: Pinaki
     },
-    {
-        name:'Mr. Aripaka Mutyalarao',
-        designation:'Security Architect @ Bosch Global Software Technologies',
-        image: cybersec
-    },{
-        name:'Mr. Kalasagar Gembali',
-        designation:'Technology Consultant @ Hewlett-Packard',
-        image: connected
-    }]
+    // {
+    //     name:'Mr. Aripaka Mutyalarao',
+    //     designation:'Security Architect @ Bosch Global Software Technologies',
+    //     image: cybersec
+    // },{
+    //     name:'Mr. Kalasagar Gembali',
+    //     designation:'Technology Consultant @ Hewlett-Packard',
+    //     image: connected
+    // }
+    ]
 
 
     return (
@@ -49,7 +54,7 @@ function Speakers(){
                 )}
                 
             </div>
-            <div className='collaborator'>
+            {/* <div className='collaborator'>
             <div className='speakerbox'>
             <div className='colabhead'> Collaborator</div>
                 <div className="speaker-image">
@@ -63,7 +68,7 @@ function Speakers(){
 
                     </div>
             </div>
-            </div>
+            </div> */}
         
         </>
     )

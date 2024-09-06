@@ -24,8 +24,9 @@
     margin-top: 5%;
     color:  #08bd8f;
     font-size: 20px;
+    line-height: 180%;
     text-align: justify;
-  text-justify: inter-word;
+    text-justify: inter-word;
     
 }
 .overview-text{
