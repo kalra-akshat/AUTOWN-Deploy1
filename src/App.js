@@ -1,4 +1,5 @@
 import './App.css';
+import './index.css';
 import {
   BrowserRouter as Router,Routes,
   Route
@@ -15,6 +16,7 @@ import Registerev from './Components/Registerev';
 import PSstudents from './Components/PSstudents';
 import Event from './Components/Event';
 import { Events } from 'react-scroll';
+
 function App() {
   return (
     <div className='app'>

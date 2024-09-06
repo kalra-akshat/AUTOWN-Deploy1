@@ -1,9 +1,7 @@
-
-
 *{
     /* padding: 0;
     margin: 0; */
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     box-sizing: border-box;
     font: inherit;
 }
@@ -11,24 +9,23 @@
 
 .mainapp .mainlayout {
     /* display: flex; */
-    height: 100vh; 
-    
+    height: 100vh;     
     width: auto;
     background-image: url('../Images/backgroundmain.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: calc(50% + 70px) center !important;
 }
 
 .mainapp .bits_logo{
-    /* position: absolute; */
-    height: 100%;
-    margin-left: 3%;
+    position: absolute;
+    height: 60%;
+    margin-left: 1.7%;
 }
 .mainapp .navStyle{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 75%;
+    /* align-items: center; */
+    justify-content:flex-end;
+    width: 95%;
 }
 
 .mainapp .navStyle a{
@@ -37,7 +34,7 @@
 
 .mainapp nav{
     width: 100%;
-    height: 10%;
+    height: 15%;
     padding-top: 1%;
     align-items: center;
     background-color: transparent;
@@ -51,10 +48,11 @@
 .mainapp nav ul li a{
     background-color: transparent;
     color: white;
-    font-size: 22px;
+    font-size: 1rem;
+    margin: 2rem;
     /* font-weight: bold; */
-    border-radius: 45px;
-    align-items: center;
+    /* border-radius: 45px; */
+    /* align-items: center; */
     
 }
 
@@ -63,14 +61,14 @@
 }
 
 .mainapp nav ul li a:hover{
-    color: #08bd8f;
+    color: #07FCAF;
     transition: .4s;
 }
 
 
 .mainapp .content{
     position: absolute;
-    top: 45%;
+    top: 55%;
     left: 3%;
     transform: translateY(-50%);
     color: antiquewhite;
@@ -80,15 +78,15 @@
     color: white;
     font-size: 65px;
     margin-bottom: 0px;
-    margin-top: 10px;
+    margin-top: 0.1rem;
         
 }
 .mainapp .content .head2{
-    margin-top: 5%;
+    margin-top: 50%;
     color: white;
 }
 .mainapp .content h2{
-    margin-top: 25%;
+    margin-top: 0;
     margin-bottom: 0%;
     color: #fcfc;
     letter-spacing: 2px;
@@ -99,6 +97,7 @@
 .mainapp .content h3{
     color: white;
     font-size: 20px;
+    margin-bottom: 5rem;
 }
     
 .mainapp .dropdown-button:hover {
@@ -109,24 +108,24 @@
   }
 
   .dropdown-button {
-    background-color: #08bd8f;
+    background-color: #07FCAF;
     font-size: 22px;
-    color:  white;
+    color:  black;
     text-decoration: none;
-    padding: 10% 15% 10% 15%;
+    padding: 3% 5%;
     border-radius: 20px ;
     transition: transform .4s  ;
     cursor: pointer;
-
+    width: 100%;
   }
   
 
   .dropdown-content {
     display: none;
-    position: absolute;
+    position: relative;
     background-color: black;
-    border: 2px solid #08bd8f;
-    color: #08bd8f;
+    border: 2px solid #07FCAF;
+    color: #07FCAF;
     min-width: 160px;
     right: 1%;
     margin-top: 0.5%;
@@ -150,10 +149,45 @@
     margin-left: 0%;
   }
   
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgba(255, 255, 255, .1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    /* border-bottom: 2px solid rgba(255, 255, 255, .2); */
+}
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .4), transparent);
+    transition: .5s;
+}
+.header:hover::before {
+    left: 100%;
+}
 
-
-
-
+.navbar a {
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 20rem;
+    transition: .3s;
+    margin-bottom: 20px;
+    width: 60%;
+}
+.navbar a:hover {
+    color: #f00;
+}
 
 
   @media screen and (max-width: 700px) {
